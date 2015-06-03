@@ -25,3 +25,12 @@ See file:Makefile.
 | =make serve=        | Start HTTP server (for testing)                    |
 | =make publish=      | Publish website to server with rsync & ssh         |
 | =make website.html= | Generate the website from the Org file website.org |
+
+* COMMENT Export to Markdown
+#+BEGIN_SRC emacs-lisp
+(require 'ox-md nil t)
+(org-md-export-to-markdown)
+#+END_SRC
+
+#+RESULTS:
+: ./README.md
