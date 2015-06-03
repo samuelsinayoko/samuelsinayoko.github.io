@@ -1,3 +1,4 @@
+#+OPTIONS: toc:nil
 * Intro
 This is the source for my website http://www.sinayoko.com that includes
 - Contact details, social networks and tweeter feed;
@@ -21,10 +22,10 @@ Keep website under version control at http://bitbucket.org/sinayoko/website
 : ./website.html
 *** Using Make
 See file:Makefile.
-| =make index=        | Generate index.html from website.html              |
-| =make serve=        | Start HTTP server (for testing)                    |
-| =make publish=      | Publish website to server with rsync & ssh         |
-| =make website.html= | Generate the website from the Org file website.org |
+- =make index= Generate index.html from website.html
+- =make serve= Start HTTP server (for testing)
+- =make publish= Publish website on Southampton server with rsync & ssh
+- =make website.html= Generate the website from the Org file website.org
 
 * COMMENT Export to Markdown
 #+BEGIN_SRC emacs-lisp
