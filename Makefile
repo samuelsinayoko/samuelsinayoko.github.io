@@ -1,8 +1,12 @@
 index: website.html
-	mv website.html index.html
+	cp website.html index.html
 
-serve: index.html
+website.html: website.org
+	./org2html
+
+serve: index
 	python -m SimpleHTTPServer
 
-publish: index.html
+
+publish: index
 	rsync -L -avuz ./ soton:public_html --exclude '.hg'

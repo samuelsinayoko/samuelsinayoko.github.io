@@ -1,0 +1,13 @@
+#!/usr/bin/env emacs --script
+;; Emacs script for exporting org file to html.
+;;
+;; This requires Emacs 24.2 or Org-mode 8.0 and was tested on OSX
+;; using Emacs 24.4.1 and Org 8.2.10
+
+;; Author: Sam Sinayoko
+;; Email: s.sinayoko@soton.ac.uk
+;; Date: 03/06/2015
+
+(require 'ox-latex)
+(find-file "website.org")
+(org-html-export-to-html)
