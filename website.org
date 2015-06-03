@@ -1384,6 +1384,15 @@ This requires the custom export =orgblock= to be installed in JabRef. See [[*Jab
 jabref -n -o $PWD/publications.html,orgblock $PWD/data/sinayoko.bib
 #+END_SRC
 
+#+RESULTS:
+: Found 2 plugin(s):
+:   - net.sf.jabref.core (jar:file:/Applications/JabRef%205.app/Contents/Resources/Java/JabRef-2.9.2.jar!/plugins/net.sf.jabref.core/plugin.xml)
+:   - net.sf.jabref.export.misq (jar:file:/Applications/JabRef%205.app/Contents/Resources/Java/JabRef-2.9.2.jar!/plugins/net.sf.jabref.export.misq/plugin.xml)
+:
+: Opening: /Users/sinayoks/dev/repos/website/data/sinayoko.bib
+: Exporting: /Users/sinayoks/dev/repos/website/publications.html
+: []
+
 
 
 
@@ -1529,64 +1538,3 @@ like playing football, squash and I'm a former rugby player and judoka. Finally,
 <iframe width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=orleans&amp;aq=&amp;sll=18.145852,0.351563&amp;sspn=82.201589,158.027344&amp;ie=UTF8&amp;hq=&amp;hnear=Orl%C3%A9ans,+Loiret,+Centre,+France&amp;t=m&amp;z=6&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=orleans&amp;aq=&amp;sll=18.145852,0.351563&amp;sspn=82.201589,158.027344&amp;ie=UTF8&amp;hq=&amp;hnear=Orl%C3%A9ans,+Loiret,+Centre,+France&amp;t=m&amp;z=6&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 </div>
 #+END_html
-
-* COMMENT Personal                                                     :home:
-  :PROPERTIES:
-  :CATEGORY: Personal
-  :END:
-
-** Reading
-
-*** DONE Read "Getting Things Done"
-    :LOGBOOK:
-    - State "TODO"        ->  "DONE"       [2014-01-06 Mon 15:10]
-    :END:
-
-** Health
-
-*** TODO Make dentist appointment
-    SCHEDULED: <2014-03-12 Wed>
-
-*** TODO Go to the gym
-    SCHEDULED: <2014-03-11 Tue>
-    :PROPERTIES:
-    :Effort:   0:10
-    :END:
-
-It should be as natural to some as showering or eating.
-
-*** TODO Do jogging
-
-Marathon = 42.195 kilometres.
-
-** Finance
-
-*** TODO Pay electricity bill                                          :FLAGGED:
-
-*** TODO Renew newspaper subscription
-
-*** TODO Cancel insurance
-
-** Chores
-
-*** TODO Buy milk
-
-*** TODO Buy dog food
-
-*** WAIT Mail package to Susan
-
-*** TODO Buy groceries
-
-*** TODO Mow the lawn
-
-*** TODO Get a haircut
-
-*** TODO Buy anniversary present
-
-*** TODO Take out trash
-
-*** TODO Get the car fixed
-
-** Recreation
-
-*** TODO Go to concert
