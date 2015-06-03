@@ -1,0 +1,7 @@
+This is the source for my website that includes
+- Contact details, social networks and tweeter feed
+- Research: my current and past projects
+- Publications: from file:publications.html generated from JabRef based a BibTex file.
+- About-me: some infos about education and personnal infos
+
+The website is generated using Org Mode (v 8.2.10) from file:website.org with the BigBlow template from https://github.com/fniessen/org-html-themes.

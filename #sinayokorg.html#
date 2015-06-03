@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Samuel Sinayoko</title>
+<!-- 2015-06-03 Wed 05:18 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Sam Sinayoko" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/bigblow.css"/>
+<link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/hideshow.css"/>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery-ui-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery.localscroll-min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery.zclip.min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/bigblow.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/hideshow.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Samuel Sinayoko</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">Contacts</a>
+<ul>
+<li><a href="#sec-1-1">Contact me</a></li>
+<li><a href="#sec-1-2">Social Networks</a></li>
+<li><a href="#sec-1-3">What I'm Saying</a></li>
+</ul>
+</li>
+<li><a href="#sec-2">Research</a></li>
+<li><a href="#sec-3">Publications</a></li>
+<li><a href="#sec-4">About me</a>
+<ul>
+<li><a href="#sec-4-1">Education</a></li>
+<li><a href="#sec-4-2">Personal</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="right">
+  <a href="https://github.com/fniessen/org-html-themes/blob/master/demo/example.org" class="fa fa-github"> Edit on GitHub</a>
+</div>
+<div class="left">
+  <a href="https://github.com/fniessen/org-html-themes/blob/master/demo/example.org" class="fa fa-github"> On left!</a>
+</div>
+
+<hr  />
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">Contacts</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1">Contact me</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>Office: Building 13 (Tizard), Room 3079
+</li>
+<li>Email: s.sinayoko AT soton.ac.uk
+</li>
+<li>Address:
+</li>
+</ul>
+<adress>
+Institute of Sound and Vibration Research <br>
+University of Southampton <br>
+Highfield <br>
+Southampton SO17 1BJ <a href="http://goo.gl/maps/xBPpY" title="Google map of Highfield Campus">(map)</a> <br>
+United Kingdom <br>
+</adress>
+</div>
+</div>
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2">Social Networks</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li><a href="http://bitbucket.org/sinayoko">Bitbucket</a>
+</li>
+<li><a href="https://twitter.com/sinayoko">Twitter</a>
+</li>
+<li><a href="https://www.researchgate.net/profile/Samuel_Sinayoko/info">ResearchGate</a>
+</li>
+<li><a href="https://scholar.google.co.uk/citations?user=FM8flkwAAAAJ&hl=en&oi=ao">Google Scholar</a>
+</li>
+<li><a href="https://www.linkedin.com/pub/samuel-sinayoko/4/320/b04">Linkedin</a>
+</li>
+<li><a href="https://www.youtube.com/playlist?list=PLLSpj1RTyogOA8FxY8T8NNJ93CDhqxy-Y">YouTube</a> channel on AeroAcoustics featuring Sir James Lighthill!
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3">What I'm Saying</h3>
+<div class="outline-text-3" id="text-1-3">
+<a class="twitter-timeline" href="https://twitter.com/sinayoko" data-widget-id="315621819526811648">Tweets by @sinayoko</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">Research</h2>
+</div>
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3">Publications</h2>
+</div>
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4">About me</h2>
+<div class="outline-text-2" id="text-4">
+</div><div id="outline-container-sec-4-1" class="outline-3">
+<h3 id="sec-4-1">Education</h3>
+<div class="outline-text-3" id="text-4-1">
+
+<div class="figure">
+<p><img src="images/ponts.png" alt="ponts.png" height="100em" style="float:left;display:inline;margin:2em;" />
+</p>
+</div>
+
+<div class="figure">
+<p><img src="images/isvr.png" alt="isvr.png" height="100em" style="float:left;display:inline;margin:em;" />
+</p>
+</div>
+
+<p>
+I studied mechanical engineering at <a href="http://en.wikipedia.org/wiki/%25C3%2589cole_des_Ponts_ParisTech">Ecole des Ponts ParisTech</a>. I obtained an MSc in Sound and Vibration and a PhD in Aeroacoustics from the <a href="http://www.southampton.ac.uk/engineering/research/centres/isvr.page">Institute of Sound and Vibration Research</a> (ISVR) at the University of Southampton. My PhD was on identifying the sources of jet noise (<a href="data/Sinayoko_PhD_thesis.pdf">pdf</a>).
+If you'd like to know more about background take a look at my <a href="data/cv_Sinayoko.pdf">CV</a> or <a href="mailto:s.sinayoko@soton.ac.uk">contact me</a>.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-4-2" class="outline-3">
+<h3 id="sec-4-2">Personal</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+I am French of Malian descent and grew up in Orleans. I am also very
+tall (1.96m); if you see a really tall aeroacoustician it's probably me. I
+like playing football, squash and I'm a former rugby player and judoka. Finally, I've been having a hard time learning Hungarian.
+</p>
+
+<div class="img">
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Mali&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=37.273371,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=Mali&amp;t=m&amp;z=3&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Mali&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=37.273371,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=Mali&amp;t=m&amp;z=3" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</div>
+
+<div class="img">
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=orleans&amp;aq=&amp;sll=18.145852,0.351563&amp;sspn=82.201589,158.027344&amp;ie=UTF8&amp;hq=&amp;hnear=Orl%C3%A9ans,+Loiret,+Centre,+France&amp;t=m&amp;z=6&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=orleans&amp;aq=&amp;sll=18.145852,0.351563&amp;sspn=82.201589,158.027344&amp;ie=UTF8&amp;hq=&amp;hnear=Orl%C3%A9ans,+Loiret,+Centre,+France&amp;t=m&amp;z=6&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2015-04-28</p>
+<p class="author">Author: Sam Sinayoko</p>
+<p class="date">Created: 2015-06-03 Wed 05:18</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.4.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

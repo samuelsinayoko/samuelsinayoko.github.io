@@ -1,0 +1,939 @@
+<div class="article-content">
+  <form action="" id="quicksearch">
+    <input type="text" id="qs_field" autocomplete="off" placeholder="Type to search..." /> <input type="button" onclick="clearQS()" value="clear" />
+    <span id="searchstat">Matching entries: <span id="stat">0</span></span>
+    <div id="showsettings" onclick="toggleSettings()">settings...</div>
+    <div id="settings" class="hidden">
+      <ul>
+	<li><input type="checkbox" class="search_setting" id="opt_searchAbs" onchange="updateSetting(this)"><label for="opt_searchAbs"> include abstract</label></li>
+	<li><input type="checkbox" class="search_setting" id="opt_searchRev" onchange="updateSetting(this)"><label for="opt_searchRev"> include review</label></li>
+	<li><input type="checkbox" class="search_setting" id="opt_useRegExp" onchange="updateSetting(this)"><label for="opt_useRegExp"> use RegExp</label></li>
+	<li><input type="checkbox" class="search_setting" id="opt_noAccents" onchange="updateSetting(this)"><label for="opt_noAccents"> ignore accents</label></li>
+      </ul>
+    </div>
+  </form>
+  <table id="qs_table" border="1" class="sortable">
+    <!-- <thead><tr><th width="20%">Author</th><th width="30%">Title</th><th width="5%">Year</th><th width="30%">Journal/Proceedings</th><th width="10%">Reftype</th><th width="5%">DOI/URL</th></tr></thead> -->
+    <thead><tr><th width="20%">Author </th><th width="30%">Title </th><th width="5%">Year </th><th width="30%">Journal/Proceedings </th><th width="10%">Reference type </th></tr></thead>
+    <tbody>
+<tr id="agarwal_wavenumber_2013" class="entry">
+  <td>A. Agarwal, S. Sinayoko and R.D. Sandberg</td>
+  <td>On wavenumber spectra for sound within subsonic jets
+    <p class="infolinks">
+      [<a href="javascript:toggleInfo('agarwal_wavenumber_2013','abstract')">abstract</a>] 
+      
+      [<a href="data/journal-papers/sinayoko_agarwal_sandberg_2013_on_wavenumber_spectra_for_sound_within_subsonic_jets.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('agarwal_wavenumber_2013','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2013</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    arXiv:1311.5358 [physics], submitted to the Journal of the Acoustical Society of America
+    
+    
+    
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "arXiv:1311.5358 [physics], submitted to the Journal of the Acoustical Society of America" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    article
+  </td>
+  <!-- <td><a href="http://arxiv.org/abs/1311.5358">URL</a>&nbsp;</td> -->
+</tr>
+
+<tr id="abs_agarwal_wavenumber_2013" class="abstract noshow">
+  <td colspan="5"><b>Abstract</b>: This paper clarifies the nature of sound spectra within subsonic jets. Three problems, of increasing complexity, are presented. Firstly, a point source is placed in a two-dimensional plug flow and the sound field is obtained analytically. Secondly, a point source is embedded in a diverging axisymmetric jet and the sound field is obtained by solving the linearised Euler equations. Finally, an analysis of the acoustic waves propagating through a turbulent jet obtained by direct numerical simulation is presented. In each problem, the pressure or density field are analysed in the frequency-wavenumber domain. It is found that acoustic waves can be classified into three main frequency-dependent groups. A physical justification is provided for this classification. The main conclusion is that, at low Strouhal numbers, acoustic waves satisfy the d'Alembertian dispersion relation.</td>
+</tr>
+
+
+
+<tr id="bib_agarwal_wavenumber_2013" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @article{agarwal_wavenumber_2013,
+      author = {Agarwal, A. and Sinayoko, S. and Sandberg, R. D.},
+      title = {On wavenumber spectra for sound within subsonic jets},
+      journal = {arXiv:1311.5358 [physics], submitted to the Journal of the Acoustical Society of America},
+      year = {2013},
+      url = {http://arxiv.org/abs/1311.5358}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="sinayoko_trailing_2013" class="entry">
+  <td>S. Sinayoko, M. Kingan and A. Agarwal</td>
+  <td>Trailing edge noise theory for rotating blades in uniform flow
+    <p class="infolinks">
+      [<a href="javascript:toggleInfo('sinayoko_trailing_2013','abstract')">abstract</a>] 
+      
+      [<a href="data/journal-papers/Sinayoko_Kingan_Agarwal_2013_ten.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('sinayoko_trailing_2013','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2013</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    Proceedings of the Royal Society A: Mathematical, Physical and Engineering Science
+    
+    , vol.&nbsp;469 (2157)
+    , 
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Science, vol.&nbsp;469 (2157)" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    article
+  </td>
+  <!-- <td><a href="http://dx.doi.org/10.1098/rspa.2013.0065">DOI</a> <a href="http://rspa.royalsocietypublishing.org/content/469/2157/20130065">URL</a>&nbsp;</td> -->
+</tr>
+
+<tr id="abs_sinayoko_trailing_2013" class="abstract noshow">
+  <td colspan="5"><b>Abstract</b>: This paper presents a new formulation for trailing edge noise radiation from rotating blades based on an analytical solution of the convective wave equation. It accounts for distributed loading and the effect of mean flow and spanwise wavenumber. A commonly used theory due to Schlinker and Amiet predicts trailing edge noise radiation from rotating blades. However, different versions of the theory exist; it is not known which version is the correct one, and what the range of validity of the theory is. This paper addresses both questions by deriving Schlinker and Amiet's theory in a simple way and by comparing it with the new formulation, using model blade elements representative of a wind turbine, a cooling fan and an aircraft propeller. The correct form of Schlinker and Amiet's theory is identified. It is valid at high enough frequency, i.e. for a Helmholtz number relative to chord greater than one and a rotational frequency much smaller than the angular frequency of the noise sources.</td>
+</tr>
+
+
+
+<tr id="bib_sinayoko_trailing_2013" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @article{sinayoko_trailing_2013,
+      author = {Sinayoko, S. and Kingan, M. and Agarwal, A.},
+      title = {Trailing edge noise theory for rotating blades in uniform flow},
+      journal = {Proceedings of the Royal Society A: Mathematical, Physical and Engineering Science},
+      year = {2013},
+      volume = {469},
+      number = {2157},
+      url = {http://rspa.royalsocietypublishing.org/content/469/2157/20130065},
+      doi = {http://dx.doi.org/10.1098/rspa.2013.0065}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="sinayoko2012silent" class="entry">
+  <td>S. Sinayoko and A. Agarwal</td>
+  <td>The silent base flow and the sound sources in a laminar jet
+    <p class="infolinks">
+      
+      
+      [<a href="data/journal-papers/Sinayoko_Agarwal_JASA_2012.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('sinayoko2012silent','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2012</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    Journal of the Acoustical Society of America
+    
+    , vol.&nbsp;131
+    , 
+    , pp.&nbsp;1959-1968
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "Journal of the Acoustical Society of America, vol.&nbsp;131, pp.&nbsp;1959-1968" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    article
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_sinayoko2012silent" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @article{sinayoko2012silent,
+      author = {Sinayoko, S. and Agarwal, A.},
+      title = {The silent base flow and the sound sources in a laminar jet},
+      journal = {Journal of the Acoustical Society of America},
+      year = {2012},
+      volume = {131},
+      pages = {1959--1968}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="Sinayoko_JFM_2011" class="entry">
+  <td>S. Sinayoko, A. Agarwal and Z. Hu</td>
+  <td>Flow decomposition and aerodynamic noise generation
+    <p class="infolinks">
+      
+      
+      [<a href="data/journal-papers/Sinayoko_Agarwal_Hu_JFM_2011.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('Sinayoko_JFM_2011','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2011</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    Journal of Fluid Mechanics
+    
+    , vol.&nbsp;668
+    , 
+    , pp.&nbsp;335-350
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "Journal of Fluid Mechanics, vol.&nbsp;668, pp.&nbsp;335-350" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    article
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_Sinayoko_JFM_2011" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @article{Sinayoko_JFM_2011,
+      author = {Sinayoko, S. and Agarwal, A. and Hu, Z.},
+      title = {Flow decomposition and aerodynamic noise generation},
+      journal = {Journal of Fluid Mechanics},
+      year = {2011},
+      volume = {668},
+      pages = {335--350}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="Sinayoko2010_IUTAM" class="entry">
+  <td>S. Sinayoko and A. Agarwal</td>
+  <td>Flow filtering and the physical sources of aerodynamic sound
+    <p class="infolinks">
+      
+      
+      
+      
+      [<a href="javascript:toggleInfo('Sinayoko2010_IUTAM','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2010</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    Procedia Engineering
+    , IUTAM symposium on computational aeroacoustics for aircraft noise prediction
+    , vol.&nbsp;6
+    , IUTAM symposium on computational aeroacoustics for aircraft noise prediction
+    , pp.&nbsp;94-103
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "Procedia Engineering, vol.&nbsp;6, IUTAM symposium on computational aeroacoustics for aircraft noise prediction, pp.&nbsp;94-103" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    article
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_Sinayoko2010_IUTAM" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @article{Sinayoko2010_IUTAM,
+      author = {Sinayoko, S. and Agarwal, A.},
+      title = {Flow filtering and the physical sources of aerodynamic sound},
+      booktitle = {IUTAM symposium on computational aeroacoustics for aircraft noise prediction},
+      journal = {Procedia Engineering},
+      publisher = {Elsevier},
+      year = {2010},
+      volume = {6},
+      pages = {94--103}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="sinayoko2010multimode" class="entry">
+  <td>S. Sinayoko, P.F. Joseph and A. McAlpine</td>
+  <td>Multimode radiation from an unflanged, semi-infinite circular duct with uniform flow
+    <p class="infolinks">
+      
+      
+      [<a href="data/journal-papers/SinayokoJosephMcAlpine2010_MultimodeRadiation.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('sinayoko2010multimode','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2010</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    Journal of the Acoustical Society of America
+    
+    , vol.&nbsp;127(4)
+    , 
+    , pp.&nbsp;2159-2168
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "Journal of the Acoustical Society of America, vol.&nbsp;127(4), pp.&nbsp;2159-2168" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    article
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_sinayoko2010multimode" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @article{sinayoko2010multimode,
+      author = {Sinayoko, S. and Joseph, P. F. and McAlpine, A.},
+      title = {Multimode radiation from an unflanged, semi-infinite circular duct with uniform flow},
+      journal = {Journal of the Acoustical Society of America},
+      year = {2010},
+      volume = {127(4)},
+      pages = {2159-2168}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="BBaqui2013_aiaa" class="entry">
+  <td>Y. Bin Baqui, A. Agarwal, A. Cavalieri and S. Sinayoko</td>
+  <td>Nonlinear and linear noise source mechanisms in subsonic jets
+    <p class="infolinks">
+      
+      
+      
+      
+      [<a href="javascript:toggleInfo('BBaqui2013_aiaa','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2013</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    AIAA paper 2013-2087, 
+    
+    
+    
+    19th AIAA/CEAS Aeroacoustics Conference, Berlin, Germany, 27-29 May 2013
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "AIAA paper 2013-2087, 19th AIAA/CEAS Aeroacoustics Conference, Berlin, Germany, 27-29 May 2013" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_BBaqui2013_aiaa" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{BBaqui2013_aiaa,
+      author = {Bin Baqui, Y. and Agarwal, A. and Cavalieri, A. and Sinayoko, S.},
+      title = {Nonlinear and linear noise source mechanisms in subsonic jets},
+      booktitle = {19th AIAA/CEAS Aeroacoustics Conference, Berlin, Germany, 27--29 May 2013},
+      year = {2013},
+      note = {AIAA paper 2013-2087}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="Sinayoko2013_aiaa2" class="entry">
+  <td>S. Sinayoko and A. Agarwal</td>
+  <td>A comparison of the silent base flow and vortex sound analogy sources in high speed subsonic jets
+    <p class="infolinks">
+      
+      
+      [<a href="data/conference-papers/SinayokoAgarwal2013_AIAA.pdf">pdf</a>]
+      [<a href="data/conference-papers/SinayokoAgarwal2013_AIAA_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('Sinayoko2013_aiaa2','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2013</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    AIAA paper 2013-2086, 
+    
+    
+    
+    19th AIAA/CEAS Aeroacoustics Conference, Berlin, Germany, 27-29 May 2013
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "AIAA paper 2013-2086, 19th AIAA/CEAS Aeroacoustics Conference, Berlin, Germany, 27-29 May 2013" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_Sinayoko2013_aiaa2" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{Sinayoko2013_aiaa2,
+      author = {Sinayoko, S. and Agarwal, A.},
+      title = {A comparison of the silent base flow and vortex sound analogy sources in high speed subsonic jets},
+      booktitle = {19th AIAA/CEAS Aeroacoustics Conference, Berlin, Germany, 27--29 May 2013},
+      year = {2013},
+      note = {AIAA paper 2013-2086}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="Sinayoko2013_aiaa1" class="entry">
+  <td>S. Sinayoko, M. Kingan and A. Agarwal</td>
+  <td>On the effect of acceleration on trailing edge noise from rotating blades
+    <p class="infolinks">
+      
+      
+      [<a href="data/conference-papers/SinayokoKinganAgarwal2013_AIAA.pdf">pdf</a>]
+      [<a href="data/conference-papers/SinayokoKinganAgarwal2013_AIAA_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('Sinayoko2013_aiaa1','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2013</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    AIAA paper 2013-2287, 
+    
+    
+    
+    19th AIAA/CEAS Aeroacoustics Conference, Berlin, Germany, 27-29 May 2013
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "AIAA paper 2013-2287, 19th AIAA/CEAS Aeroacoustics Conference, Berlin, Germany, 27-29 May 2013" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_Sinayoko2013_aiaa1" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{Sinayoko2013_aiaa1,
+      author = {Sinayoko, S. and M. Kingan and Agarwal, A.},
+      title = {On the effect of acceleration on trailing edge noise from rotating blades},
+      booktitle = {19th AIAA/CEAS Aeroacoustics Conference, Berlin, Germany, 27--29 May 2013},
+      year = {2013},
+      note = {AIAA paper 2013-2287}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="Sinayoko2012_aiaa" class="entry">
+  <td>S. Sinayoko, M. Kingan and A. Agarwal</td>
+  <td>Trailing edge noise prediction for rotating blades: analysis and comparison of two classical approaches
+    <p class="infolinks">
+      
+      
+      [<a href="data/conference-papers/SinayokoKinganAgarwal2012_AIAA.pdf">pdf</a>]
+      [<a href="data/conference-papers/SinayokoKinganAgarwal2012_AIAA_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('Sinayoko2012_aiaa','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2012</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    AIAA paper 2012-2302, 
+    
+    
+    
+    18th AIAA/CEAS Aeroacoustics Conference, Colorado Springs, USA, 4-6 June 2012
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "AIAA paper 2012-2302, 18th AIAA/CEAS Aeroacoustics Conference, Colorado Springs, USA, 4-6 June 2012" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_Sinayoko2012_aiaa" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{Sinayoko2012_aiaa,
+      author = {Sinayoko, S. and Kingan, M. and Agarwal, A.},
+      title = {Trailing edge noise prediction for rotating blades: analysis and comparison of two classical approaches},
+      booktitle = {18th AIAA/CEAS Aeroacoustics Conference, Colorado Springs, USA, 4--6 June 2012},
+      year = {2012},
+      note = {AIAA paper 2012-2302}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="Sinayoko2011_aiaa" class="entry">
+  <td>S. Sinayoko, A. Agarwal and R. Sandberg</td>
+  <td>Physical sources of sound in laminar and turbulent jets
+    <p class="infolinks">
+      
+      
+      [<a href="data/conference-papers/SinayokoAgarwalSandberg2011_AIAA.pdf">pdf</a>]
+      [<a href="data/conference-papers/SinayokoAgarwalSandberg2011_AIAA_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('Sinayoko2011_aiaa','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2011</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    AIAA paper 2011-2916, 
+    
+    
+    
+    17th AIAA/CEAS Aeroacoustics Conference, Portland, USA, 5-8 June 2011
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "AIAA paper 2011-2916, 17th AIAA/CEAS Aeroacoustics Conference, Portland, USA, 5-8 June 2011" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_Sinayoko2011_aiaa" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{Sinayoko2011_aiaa,
+      author = {Sinayoko, S. and Agarwal, A. and Sandberg, R.},
+      title = {Physical sources of sound in laminar and turbulent jets},
+      booktitle = {17th AIAA/CEAS Aeroacoustics Conference, Portland, USA, 5--8 June 2011},
+      year = {2011},
+      note = {AIAA paper 2011--2916}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="Sinayoko2010" class="entry">
+  <td>S. Sinayoko and A. Agarwal</td>
+  <td>On computing the physical sources of jet noise
+    <p class="infolinks">
+      
+      
+      [<a href="data/conference-papers/SinayokoAgarwal2010_AIAA.pdf">pdf</a>]
+      [<a href="data/conference-papers/SinayokoAgarwal2010_AIAA_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('Sinayoko2010','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2010</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    AIAA paper 2010-3962, 
+    
+    
+    
+    16th AIAA/CEAS Aeroacoustics Conference, Stockholm, Sweden, 7-9 June 2010
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "AIAA paper 2010-3962, 16th AIAA/CEAS Aeroacoustics Conference, Stockholm, Sweden, 7-9 June 2010" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_Sinayoko2010" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{Sinayoko2010,
+      author = {Sinayoko, S. and Agarwal, A.},
+      title = {On computing the physical sources of jet noise},
+      booktitle = {16th AIAA/CEAS Aeroacoustics Conference, Stockholm, Sweden, 7--9 June 2010},
+      year = {2010},
+      note = {AIAA paper 2010--3962}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="Sinayoko2009" class="entry">
+  <td>S. Sinayoko, A. Agarwal and Z. Hu</td>
+  <td>On separating propagating and non-propagating dynamics in fluid-flow equations
+    <p class="infolinks">
+      
+      
+      [<a href="data/conference-papers/SinayokoAgarwalHu2009_AIAA.pdf">pdf</a>]
+      [<a href="data/conference-papers/SinayokoAgarwalHu2009_AIAA_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('Sinayoko2009','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2009</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    AIAA paper 2009-3381, 
+    
+    
+    
+    15th AIAA/CEAS Aeroacoustics Conference, Miami, USA, 11-13 May 2009
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "AIAA paper 2009-3381, 15th AIAA/CEAS Aeroacoustics Conference, Miami, USA, 11-13 May 2009" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_Sinayoko2009" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{Sinayoko2009,
+      author = {Sinayoko, S. and Agarwal, A. and Hu, Z.},
+      title = {On separating propagating and non-propagating dynamics in fluid-flow equations},
+      booktitle = {15th AIAA/CEAS Aeroacoustics Conference, Miami, USA, 11--13 May 2009},
+      year = {2009},
+      note = {AIAA paper 2009--3381}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="sinayoko2008_euronoise" class="entry">
+  <td>A. Agarwal, G. Gabard and S. Sinayoko</td>
+  <td>On the separation of hydrodynamic and acoustic waves in linear free-shear flows
+    <p class="infolinks">
+      
+      
+      
+      [<a href="data/conference-papers/AgarwalGabardSinayoko2008_EURONOISE_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('sinayoko2008_euronoise','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2008</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    
+    
+    
+    Acoustics '08, June 29-July 4, Paris
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- ", Acoustics '08, June 29-July 4, Paris" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_sinayoko2008_euronoise" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{sinayoko2008_euronoise,
+      author = {Agarwal, A. and Gabard, G. and Sinayoko, S.},
+      title = {On the separation of hydrodynamic and acoustic waves in linear free-shear flows},
+      booktitle = {Acoustics '08, June 29--July 4, Paris},
+      year = {2008}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="agarwal2008_ercoftac" class="entry">
+  <td>A. Agarwal, G. Gabard, S. Sinayoko and Z. Hu</td>
+  <td>On separating propagating and non-propagating dynamics in fluid-flow equations
+    <p class="infolinks">
+      
+      
+      
+      [<a href="data/conference-papers/AgarwalGabardSinayokoHu2008_ERCOFTAC_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('agarwal2008_ercoftac','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2008</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    
+    
+    
+    ERCOFTAC workshop on Noise Source Mechanisms in Turbulent Shear Flows
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- ", ERCOFTAC workshop on Noise Source Mechanisms in Turbulent Shear Flows" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_agarwal2008_ercoftac" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{agarwal2008_ercoftac,
+      author = {Agarwal, A. and Gabard, G. and Sinayoko, S. and Hu, Z.},
+      title = {On separating propagating and non-propagating dynamics in fluid-flow equations},
+      booktitle = {ERCOFTAC workshop on Noise Source Mechanisms in Turbulent Shear Flows},
+      year = {2008}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="sinayoko2008high" class="entry">
+  <td>S. Sinayoko, P.F. Joseph and A. McAlpine</td>
+  <td>High frequency multimode radiation from ducts with flow
+    <p class="infolinks">
+      
+      
+      [<a href="data/conference-papers/SinayokoJosephMcAlpine2008_AIAA.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('sinayoko2008high','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2008</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    AIAA paper 2008-2831, 
+    
+    
+    
+    14th AIAA/CEAS Aeroacoustics Conference, Vancouver, Canada, 5-7 May 2008
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "AIAA paper 2008-2831, 14th AIAA/CEAS Aeroacoustics Conference, Vancouver, Canada, 5-7 May 2008" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_sinayoko2008high" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{sinayoko2008high,
+      author = {Sinayoko, S. and Joseph, P. F. and McAlpine, A.},
+      title = {High frequency multimode radiation from ducts with flow},
+      booktitle = {14th AIAA/CEAS Aeroacoustics Conference, Vancouver, Canada, 5--7 May 2008},
+      year = {2008},
+      note = {AIAA paper 2008--2831}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="sinayoko2008fundamental" class="entry">
+  <td>S. Sinayoko</td>
+  <td>Fundamental Investigation into the directivity function of multi-mode sound fields from ducts
+    <p class="infolinks">
+      
+      
+      [<a href="data/Sinayoko_MSc_dissertation.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('sinayoko2008fundamental','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2008</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    Institute of Sound and Vibration Research, 
+    
+    
+    
+    
+    
+     University of Southampton
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "Institute of Sound and Vibration Research, University of Southampton" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    mastersthesis
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_sinayoko2008fundamental" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @mastersthesis{sinayoko2008fundamental,
+      author = {Sinayoko, Samuel},
+      title = {Fundamental Investigation into the directivity function of multi-mode sound fields from ducts},
+      school = {University of Southampton},
+      year = {2008},
+      note = {Institute of Sound and Vibration Research}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="sinayoko2010numerical" class="entry">
+  <td>S. Sinayoko</td>
+  <td>Numerical investigation of the true sources of jet noise
+    <p class="infolinks">
+      
+      
+      [<a href="data/Sinayoko_PhD_thesis.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('sinayoko2010numerical','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2010</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    Institute of Sound and Vibration Research, 
+    
+    
+    
+    
+    
+     University of Southampton
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "Institute of Sound and Vibration Research, University of Southampton" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    phdthesis
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_sinayoko2010numerical" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @phdthesis{sinayoko2010numerical,
+      author = {Sinayoko, Samuel},
+      title = {Numerical investigation of the true sources of jet noise},
+      school = {University of Southampton},
+      year = {2010},
+      note = {Institute of Sound and Vibration Research}
+      }
+    </pre>
+  </td>
+</tr>
+</tbody>
+</table>
+
+<div class="copyright">
+  Created by <a href="http://jabref.sourceforge.net">JabRef</a>.
+</div>
+
+</div>

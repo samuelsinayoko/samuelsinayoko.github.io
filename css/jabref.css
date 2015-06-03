@@ -1,0 +1,56 @@
+/*   body { background-color: white; font-family: Arial, sans-serif; font-size: 13px; line-height: 1.2; padding: 1em; color: #2E2E2E; margin: auto 2em; } */
+
+/* .article-content { font-size: 75%; line-height: 1.2;} */
+.article-content { font-size: 75%;}
+
+form#quicksearch { width: auto; border-style: dotted; border-color: gray; border-width: 1px 0px; padding: 0.3em 0.3em; display:none; position:relative; margin: 0;}
+span#searchstat {padding-left: 1em;}
+form#quicksearch label { display: inline; font-size: 100%;}
+
+/* div#settings { margin-top:0.7em; border-bottom: 1px transparent solid; background-color: #efefef; border: 1px grey solid;} */
+div#settings { border-bottom: 1px transparent solid; background-color: #efefef; border: 1px grey solid; }
+
+div#settings ul {margin: 0; padding: 0; }
+div#settings li {margin: 0; padding: 0 1em 0 0; display: inline; list-style: none; }
+div#settings li + li { border-left: 2px #efefef solid; padding-left: 0.5em;}
+div#settings input { margin-bottom: 0px;}
+
+div#settings.hidden {display:none;}
+
+#showsettings { border: 1px grey solid; padding: 0 0.5em; display:inline; line-height: 125%; text-align: right;
+		float:right;
+		//border-radius: 3px 3px 3px 3px;
+		margin-top: 2px;
+	      }
+#showsettings:hover { cursor: pointer; }
+/* #showsettings { float:right; border-radius: 3px 3px 3px 3px; line-height: 20px; margin-top: 2px;} */
+
+.invalidsearch { background-color: red; }
+/* #quicksearch #qs_field input[type="button"] { background-color: #efefef; border: 1px #2E2E2E solid;}*/
+input#qs_field { margin: 0; font-size:100%; height:100%; padding: 0;}
+#quicksearch input { font-size:100%; }
+
+
+
+table { width: 100%; empty-cells: doshow; border-spacing: 0em 0.2em; margin: 1em 0em; border-style: none; }
+/* // Remove this if styling tables with org-mode */
+/* th, td { border: 1px gray solid; border-width: 1px 1px; padding: 0.5em; vertical-align: top; text-align: left; } */
+/* th { background-color: #efefef; } */
+/* td + td, th + th { border-left: none; } */
+
+/* td a { text-decoration: none; } */
+/* td a:hover  { text-decoration: underline; } */
+
+tr.noshow { display: none;}
+tr.highlight td { background-color: #EFEFEF; border-top: 2px #2E2E2E solid; font-weight: bold; }
+tr.abstract td, tr.review td, tr.bibtex td { background-color: #EFEFEF; text-align: justify; border-bottom: 2px #2E2E2E solid; }
+tr.nextshow td { border-bottom: 1px gray solid; }
+
+/* Modify this to override parameters from blog's css */
+table#qs_table tr.bibtex pre { width: 100%; overflow: auto; white-space: pre-wrap; border: 0; font-size: 100%; line-height: 100%; background-color: transparent; padding:0;}
+p.infolinks { margin: 0.1em 0em 0em 0em; padding: 0px; }
+
+@media print {
+	p.infolinks, #qs_settings, #quicksearch, t.bibtex { display: none !important; }
+	tr { page-break-inside: avoid; }
+}

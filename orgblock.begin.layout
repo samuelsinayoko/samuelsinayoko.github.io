@@ -1,0 +1,19 @@
+
+<div class="article-content">
+  <form action="" id="quicksearch">
+    <input type="text" id="qs_field" autocomplete="off" placeholder="Type to search..." /> <input type="button" onclick="clearQS()" value="clear" />
+    <span id="searchstat">Matching entries: <span id="stat">0</span></span>
+    <div id="showsettings" onclick="toggleSettings()">settings...</div>
+    <div id="settings" class="hidden">
+      <ul>
+	<li><input type="checkbox" class="search_setting" id="opt_searchAbs" onchange="updateSetting(this)"><label for="opt_searchAbs"> include abstract</label></li>
+	<li><input type="checkbox" class="search_setting" id="opt_searchRev" onchange="updateSetting(this)"><label for="opt_searchRev"> include review</label></li>
+	<li><input type="checkbox" class="search_setting" id="opt_useRegExp" onchange="updateSetting(this)"><label for="opt_useRegExp"> use RegExp</label></li>
+	<li><input type="checkbox" class="search_setting" id="opt_noAccents" onchange="updateSetting(this)"><label for="opt_noAccents"> ignore accents</label></li>
+      </ul>
+    </div>
+  </form>
+  <table id="qs_table" border="1" class="sortable">
+    <!-- <thead><tr><th width="20%">Author</th><th width="30%">Title</th><th width="5%">Year</th><th width="30%">Journal/Proceedings</th><th width="10%">Reftype</th><th width="5%">DOI/URL</th></tr></thead> -->
+    <thead><tr><th width="20%">Author </th><th width="30%">Title </th><th width="5%">Year </th><th width="30%">Journal/Proceedings </th><th width="10%">Reference type </th></tr></thead>
+    <tbody>
