@@ -9,4 +9,5 @@
 ;; Date: 03/06/2015
 (require 'ox-html)
 (find-file "website.org")
-(org-html-export-to-html)
+(let ((org-export-babel-evaluate t))
+  (org-html-export-to-html))

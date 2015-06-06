@@ -1,3 +1,5 @@
-- [ ] Add infos re searching and sorting publications
-- [ ] Add link to bib file
+- [X] Add new papers
+- [X] Add infos re searching and sorting publications
+- [X] Add link to bib file
+- [ ] Fix biblio style (extra commas)
 - [ ] Validate the website and fix errors
