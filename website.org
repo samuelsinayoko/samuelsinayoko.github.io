@@ -613,6 +613,58 @@ Articles are shown first, followed by conference papers and theses. Enter some t
     </pre>
   </td>
 </tr>
+<tr id="sinayoko_generalised_2015" class="entry">
+  <td>S. Sinayoko, M.C.M. Wright and R.D. Sandberg</td>
+  <td>A Generalised Ffowcs-Williams And Hawkings Formulation Applied To Flow Simulations With VortiCal Outflow
+    <p class="infolinks">
+      [<a href="javascript:toggleInfo('sinayoko_generalised_2015','abstract')">abstract</a>]
+
+      [<a href="data/conference-paper/sinayoko_wright_sandberg_2015_a_generalised_ffowcs-williams_and_hawkings_formulation_applied_to_flow_simulations_with_vortical_outflow.pdf">pdf</a>]
+
+      [<a href="javascript:toggleInfo('sinayoko_generalised_2015','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2015</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+
+
+
+
+    22nd Iternational Congress on Sound and Vibration, Florence, Italy, 15-19 July 2015
+
+
+
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- ", 22nd Iternational Congress on Sound and Vibration, Florence, Italy, 15-19 July 2015" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+<tr id="abs_sinayoko_generalised_2015" class="abstract noshow">
+  <td colspan="5"><b>Abstract</b>: The FW-H equations allow to extrapolate acoustic fluctuations outside of a particular surface. In many applications, such as jet noise or turbomachinary noise, parts of the surface may lie in regions of high vorticity. Vorticity crossing the surface generates spurious noise sources in the thickness and loading terms. These sources are cancelled out by the quadrupole sources outside of the surface. Unfortunately, these quadrupole sources are usually neglected which leads to incorrect noise predictions. A generalized form of the FW-H formulation was recently developed to overcome this problem. It relies on a distributed extrapolation zone, instead of a single surface. This paper applies this new theory to the simplified problem of a divergence-free Gaussian vortex crossing a spherical FW-H surface. It is shown that the two key parameters driving the accuracy of the noise prediction are the distance between two outflow surfaces, which should be bigger than the characteristic length of the vortex, and the thickness of the outflow region, which should be small compared to the acoustic wavelength. Reductions in the sound pressure level of the spurious noise of up to 13 dB are obtained using 4 surfaces.</td>
+</tr>
+
+
+
+<tr id="bib_sinayoko_generalised_2015" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{sinayoko_generalised_2015,
+      author = {Sinayoko, Samuel and Wright, M. C. M. and Sandberg, Richard D.},
+      title = {A Generalised Ffowcs-Williams And Hawkings Formulation Applied To Flow Simulations With VortiCal Outflow},
+      booktitle = {22nd Iternational Congress on Sound and Vibration, Florence, Italy, 15--19 July 2015},
+      year = {2015}
+      }
+    </pre>
+  </td>
+</tr>
 <tr id="SinayokoAzarpeyvandLyu2014" class="entry">
   <td>S. Sinayoko, M. Azarpeyvand and B. Lyu</td>
   <td>Trailing edge noise prediction for rotating serrated blades
