@@ -17,7 +17,7 @@
     \begin{journal}\format[HTMLChars]{\journal}\end{journal}
     \begin{booktitle&volume}, \format[HTMLChars, FormatPagesForHTML]{\booktitle}\end{booktitle&volume}
     \begin{volume}, vol.&nbsp;\volume\end{volume}\begin{number} (\format[FormatPagesForHTML]{\number})\end{number}
-    \begin{booktitle}\begin{volume}, \end{volume}\format[HTMLChars, FormatPagesForHTML]{\booktitle}\end{booktitle}
+    <!-- \begin{booktitle}\begin{volume}, \end{volume}\format[HTMLChars, FormatPagesForHTML]{\booktitle}\end{booktitle} -->
     \begin{pages}, pp.&nbsp;\format[FormatPagesForHTML]{\pages}\end{pages}
     \begin{school} \format[HTMLChars]{\school}\end{school}
     \begin{howpublished}, \format[HTMLChars]{\howpublished}\end{howpublished}

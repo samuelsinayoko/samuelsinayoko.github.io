@@ -257,7 +257,7 @@ Articles are shown first, followed by conference papers and theses. Enter some t
   <td>
     <!-- format is below with each file on a separate line -->
     arXiv: 1403.7511,
-    arXiv:1403.7511 [physics] (accepted for publication in Journal of International Aeroacoustics)
+    arXiv:1403.7511 [physics] (accepted for publication in Journal of International Aeroacoustics in 2015.)
 
 
 
@@ -266,7 +266,7 @@ Articles are shown first, followed by conference papers and theses. Enter some t
 
     <!-- <lisp> -->
     <!-- (sam-blog-delete-starting-comma -->
-    <!-- "arXiv: 1403.7511arXiv:1403.7511 [physics] (accepted for publication in Journal of International Aeroacoustics)" -->
+    <!-- "arXiv: 1403.7511arXiv:1403.7511 [physics] (accepted for publication in Journal of International Aeroacoustics in 2015.)" -->
     <!-- ) -->
     <!-- </lisp> -->
   </td>
@@ -288,7 +288,7 @@ Articles are shown first, followed by conference papers and theses. Enter some t
       @article{gregory_acoustic_2014,
       author = {Gregory, Alastair Logan and Sinayoko, Samuel and Agarwal, Anurag and Lasenby, Joan},
       title = {An acoustic space-time and the Lorentz transformation in aeroacoustics},
-      journal = {arXiv:1403.7511 [physics] (accepted for publication in Journal of International Aeroacoustics)},
+      journal = {arXiv:1403.7511 [physics] (accepted for publication in Journal of International Aeroacoustics in 2015.)},
       year = {2014},
       note = {arXiv: 1403.7511},
       url = {http://arxiv.org/abs/1403.7511}
