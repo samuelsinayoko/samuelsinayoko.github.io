@@ -36,6 +36,9 @@ United Kingdom <br>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 #+end_html
 * Research
+** Vacancies
+See the "Vacancies" tab above for current opportunities.
+
 ** Current projects
 *** Acoustic Energy in Turbulent Flows
 /September 2013 -- September 2016, University of Southampton/
@@ -73,7 +76,6 @@ Applications of techniques from general relativity to engineering are yielding i
 This 1 year project is being carried out by 4th year undergraduate student Alastair Gregory at the University of Cambridge, under the supervision of Anurag Agarwal and Joan Lasenby and myself.
 # **** News
 
-
 ** Previous projects
 *** Gas Turbine Noise
 /January 2013 -- September 2013, Department of Engineering, University of Cambridge/
@@ -91,6 +93,7 @@ This project is funded by Mitsubishi Heavy Industries
 I am exploring the physics of jet noise generation using direct numerical simulation and signal processing.
 # *** Duct Acoustics
 # TODO
+
 * Publications
 # See subsection below for generating publications.html from bib file with jabref
 
@@ -1503,6 +1506,42 @@ jabref -n -o $PWD/publications.html,orgblock $PWD/data/sinayoko.bib
 #+END_SRC
 
 
+
+* Teaching
+** FEEG6002 Advanced Computational Methods 1
+4th year module on /C programming/ and /Applied Programming Techniques/. I've designed and am delivering lectures for the the applied programming part of the course and am running the weekly C programming labs. I'm also responsible for the exam.
+
+The labs use the Southampton's automated marking system TeTePy. Students send their programs to the course email address. The programs are compiled, run and tested automatically and students are sent specific feedback.
+
+[[http://southampton.ac.uk/~feeg6002][FEEG6002 website]]
+
+[[http://www.southampton.ac.uk/~feeg6002/lecturenotes.html][FEEG602 lecture notes]]
+** FEEG1001: Python for Computational Science and Engineering
+- 1st year module on Python programming taken by all engineering undergraduates
+- Demonstrating for Python labs
+- Setting and marking part of the exam
+
+[[http://southampton.ac.uk/~feeg1001][FEEG1001 website]]
+** FEEG1002: Dynamics-1
+First year Dynamics module. I'm giving 50% of the lectures on particle and rigid body dynamics, focusing on Work, Impulse and Energy Principles.
+
+Course syllabus:
+  - Particle Dynamics: Newton’s Laws, particle motion for constant and variable force
+  - Work, Energy and Momentum: Work done by Force, Kinetic and Potential Energy
+  - Energy Conservation, Friction, Linear Momentum & Impulse, Simple Rotating Bodies
+  - Relative motion equation, Relative motion Diagrams
+  - System of Particles: Centre of Mass, Centre of Mass of a vehicle, Equivalent Particle
+  - Rocket and Jet Propulsion
+  - Dynamics of Rigid Bodies: Rotation of rigid body about a fixed axis
+  - Angular Momentum & its conservation, Moments of inertia, Inertia Matrix
+
+[[http://www.southampton.ac.uk/engineering/undergraduate/modules/feeg1002_mechanics_structures_and_materials.page][FEEG1002 website]]
+** FEEG2003: Fluid Mechanics
+Second year Fluid Mechanics module. I'm organising the two labs (boundary layer & compressible nozzle) and delivering lectures on irrotational flows and potential flows.
+[[http://www.southampton.ac.uk/engineering/undergraduate/modules/feeg2003_fluid_mechanics.page][FEEG2003 website]]
+
+
+
 * About me
 ** Education
 #+BEGIN_html
@@ -1518,7 +1557,7 @@ jabref -n -o $PWD/publications.html,orgblock $PWD/data/sinayoko.bib
 # [[file:images/isvr.png]]
 
 I graduated from [[http://en.wikipedia.org/wiki/%25C3%2589cole_des_ponts_ParisTech][Ecole des Ponts ParisTech]] with a [[http://en.wikipedia.org/wiki/Dipl%C3%B4me_d%27Ing%C3%A9nieur][diplome d'Ingenieur]] in Mechanical Engineering. I also obtained an MSc in Sound and Vibration and a PhD in Aeroacoustics from the [[http://www.southampton.ac.uk/engineering/research/centres/isvr.page][Institute of Sound and Vibration Research]] (ISVR) at the University of Southampton. My PhD was on identifying the sources of jet noise ([[file:data/Sinayoko_PhD_thesis.pdf][pdf]]).
-If you'd like to know more about background take a look at my [[file:data/cv_Sinayoko.pdf][CV]] or [[mailto:s.sinayoko@soton.ac.uk][contact me]].
+If you'd like to know more about my background take a look at my [[file:data/cv_Sinayoko.pdf][CV]] or [[mailto:s.sinayoko@soton.ac.uk][contact me]].
 
 
 ** Personal
@@ -1538,3 +1577,40 @@ like playing football, squash and I'm a former rugby player and judoka. Finally,
 <iframe width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=orleans&amp;aq=&amp;sll=18.145852,0.351563&amp;sspn=82.201589,158.027344&amp;ie=UTF8&amp;hq=&amp;hnear=Orl%C3%A9ans,+Loiret,+Centre,+France&amp;t=m&amp;z=6&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=orleans&amp;aq=&amp;sll=18.145852,0.351563&amp;sspn=82.201589,158.027344&amp;ie=UTF8&amp;hq=&amp;hnear=Orl%C3%A9ans,+Loiret,+Centre,+France&amp;t=m&amp;z=6&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 </div>
 #+END_html
+
+* Vacancies
+** PhD project on High Productivity Computation for micromagnetic simulation
+<<hpc-micromagnetics>>
+*URGENT*: Fully funded 4 year PhD studentship for a UK student starting in September 2015 to work on High Productivity Computation for micromagnetic simulation, within Southampton's [[http://www.ngcm.soton.ac.uk/][Next Generation Computational Modelling Doctoral Training Centre]]. This project is co-supervised by [[http://www.southampton.ac.uk/~fangohr/][Hans Fangohr]].
+
+*** Subject
+Simulation has become a key tool in research and development of magnetic nanostructure systems, including data storage and sensing. The simulation of magnetisation at the nanoscale poses computational challenges as the relevant time-dependent partial differential equations are non-linear and stiff. The formulation of the micromagnetic model requires a fine discretisation, resulting in many degrees of freedom. New design proposals can be explored virtually, and help making the device design process more cost-effective and efficient but require simulation of large structures.
+
+The workhorse of micromagnetic modelling is a finite-difference based software that executes on single and multi-core CPUs ([[http://math.nist.gov/oommf/][OOMMF]]). The availability of large computational power in GPUs at low costs has led to the development of further micromagnetic codes that have been written especially for (NVidia) GPUs, such as the open source codes Mumax3 and Micromagnum, and a few other codes that are not publicly available.
+
+In this project, we will explore feasibility of developing similar high performance computing code that can flexibly execute on several computational backends, such as GPUs, Intel Phi and multi-core/multi-CPU system. We are aiming for an implementation where the equations to solve are coded once but the translation into backend specific code happens automatically. In the long run, this will lead to more sustainable code that can be re-used despite rapidly changing hardware.
+
+We will use a design where the end user of the application uses a Python interface, similar to the [[http://nmag.soton.ac.uk][Nmag]] simulation design (see figure 1 below).
+
+Eventually, we will apply the prototype simulation tool to state-of-the-art simulation challenges from the micromagnetic community to advance science and evaluate performance and usefulness of the tools, together with our national and international collaborators.
+
+#+CAPTION: The image shows as a case study the schematic overview of the Nmag finite-element simulation code [2] structure: The end-user sees a Python interface (blue) which is the simulation script that makes use of a Python library called nmag. In this project, we will develop a similar setup, but for finite-difference micromagnetic simulations. The layers below this user interface reflect the overall idea of exploiting existing numerical libraries and executing compiled code in parallel but should not be read as the anticipated layout or choice of tools for this project.
+file:images/vacancies/nmag-architecture.png
+
+#+CAPTION: This image depicts the magnetisation vector field in a 200nm diameter nickel half-sphere in zero field, computed with the OOMMF code. The coloured cones show the magnetisation in the x-y plane cross section of the half-sphere and highlight that the magnetisation forms a vortex (i.e. shows circular 'flows'). The colour in these cones shows the x-y angle of magnetisation (where z is pointing up). The monochrom cones display the magnetisation in the x-z plane cross-section and demonstrate that cones in the centre of the vortex are pointing down. The streamlines serve to highlight the overall vortex core shape. There are [[http://math.nist.gov/oommf/oommf_cites.html][many publications relying on simulation codes like OOMMF]], with application to magnetic data storage, spintronics, sensing and energy harvesting that are all based on micromagnetic models.
+file:images/vacancies/fnl2.png
+*** Apply
+Email your application material to mailto:ngcm@soton.ac.uk including:
+- Your CV, including names and details of at least two academic references
+- A short research statement, including the information which one or multiple PhD projects you are applying for
+- Anticipated Financial Support (i.e. eligibility for a studentship if you require a studentship)
+- If you are not a native English speaker, information showing that you fulfil the English language requirements, ideally the test result of an IELTS test.
+
+Closing date: 16 July 2015.
+
+More information is available on the [[http://www.ngcm.soton.ac.uk/apply.html][DTC's website]].
+
+*** Contacts
+For informal inqueries, please get in touch with
+- Sam Sinayoko s.sinayoko AT soton.ac.uk
+- Hans Fangohr fangohr AT soton.ac.uk

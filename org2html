@@ -7,7 +7,6 @@
 ;; Author: Sam Sinayoko
 ;; Email: s.sinayoko@soton.ac.uk
 ;; Date: 03/06/2015
-
-(require 'ox-latex)
+(require 'ox-html)
 (find-file "website.org")
 (org-html-export-to-html)

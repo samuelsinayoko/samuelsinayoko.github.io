@@ -22,6 +22,7 @@ Keep website under version control at http://bitbucket.org/sinayoko/website
 : ./website.html
 *** Using Make
 See file:Makefile.
+
 - =make index= Generate index.html from website.html
 - =make serve= Start HTTP server (for testing)
 - =make publish= Publish website on Southampton server with rsync & ssh
