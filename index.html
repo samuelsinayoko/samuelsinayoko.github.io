@@ -1,0 +1,2280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Samuel Sinayoko</title>
+<!-- 2016-10-10 Mon 10:22 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Sam Sinayoko" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="css/bigblow.css"/>
+<link rel="stylesheet" type="text/css" href="css/hideshow.css"/>
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.localscroll-min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="js/jquery.zclip.min.js"></script>
+<script type="text/javascript" src="js/samblow.js"></script>
+<script type="text/javascript" src="js/hideshow.js"></script>
+<script type="text/javascript" src="styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jabref.css"/>
+<script type="text/javascript" src="js/quicksearch.js"></script>
+<script type="text/javascript" src="js/sorttable.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+<script type="text/javascript" src="http://orgmode.org/mathjax/MathJax.js"></script>
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+    MathJax.Hub.Config({
+        // Only one of the two following lines, depending on user settings
+        // First allows browser-native MathML display, second forces HTML/CSS
+        //  config: ["MMLorHTML.js"], jax: ["input/TeX"],
+            jax: ["input/TeX", "output/HTML-CSS"],
+        extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js",
+                     "TeX/noUndefined.js"],
+        tex2jax: {
+            inlineMath: [ ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"], ["\\begin{displaymath}","\\end{displaymath}"] ],
+            skipTags: ["script","noscript","style","textarea","pre","code"],
+            ignoreClass: "tex2jax_ignore",
+            processEscapes: false,
+            processEnvironments: true,
+            preview: "TeX"
+        },
+        showProcessingMessages: true,
+        displayAlign: "center",
+        displayIndent: "2em",
+
+        "HTML-CSS": {
+             scale: 100,
+             availableFonts: ["STIX","TeX"],
+             preferredFont: "TeX",
+             webFont: "TeX",
+             imageFont: "TeX",
+             showMathMenu: true,
+        },
+        MMLorHTML: {
+             prefer: {
+                 MSIE:    "MML",
+                 Firefox: "MML",
+                 Opera:   "HTML",
+                 other:   "HTML"
+             }
+        }
+    });
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Samuel Sinayoko</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#contacts">Contacts</a>
+<ul>
+<li><a href="#sec-1-1">Contact me</a></li>
+<li><a href="#sec-1-2">Social Web</a></li>
+<li><a href="#sec-1-3">What I'm Tweeting</a></li>
+</ul>
+</li>
+<li><a href="#research">Research</a>
+<ul>
+<li><a href="#sec-2-1">Vacancies</a></li>
+<li><a href="#sec-2-2">Current projects</a></li>
+<li><a href="#sec-2-3">Previous projects</a></li>
+</ul>
+</li>
+<li><a href="#publications">Publications</a></li>
+<li><a href="#teaching">Teaching</a>
+<ul>
+<li><a href="#sec-4-1">FEEG6002 Advanced Computational Methods 1</a></li>
+<li><a href="#sec-4-2">FEEG1001: Python for Computational Science and Engineering</a></li>
+<li><a href="#sec-4-3">FEEG1002: Dynamics-1</a></li>
+<li><a href="#sec-4-4">FEEG2003: Fluid Mechanics</a></li>
+</ul>
+</li>
+<li><a href="#about-me">About me</a>
+<ul>
+<li><a href="#sec-5-1">Education</a></li>
+<li><a href="#sec-5-2">Personal</a></li>
+</ul>
+</li>
+<li><a href="#vacancies">Vacancies</a>
+<ul>
+<li><a href="#sec-6-1">PhD project on High Productivity Computation for micromagnetic simulation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<hr  />
+<div id="outline-container-contacts" class="outline-2">
+<h2 id="contacts"><a id="sec-1" name="sec-1"></a>Contacts</h2>
+<div class="outline-text-2" id="text-contacts">
+</div>
+<div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1">Contact me</h3>
+<div class="outline-text-3" id="text-1-1">
+<address>
+Institute of Sound and Vibration Research <br>
+University of Southampton <br>
+Highfield <a href="http://goo.gl/maps/xBPpY" title="Google map of Highfield Campus">(map)</a> <br>
+Southampton SO17 1BJ <br>
+United Kingdom <br>
+</address>
+<ul class="org-ul">
+<li>Office: <a href="http://data.southampton.ac.uk/building/13.html">Building 13 (Tizard)</a>, Room 3079
+</li>
+<li>Email: s.sinayoko AT soton.ac.uk
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2">Social Web</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li><a href="http://bitbucket.org/sinayoko">Bitbucket</a>
+</li>
+<li><a href="https://twitter.com/sinayoko">Twitter</a>
+</li>
+<li><a href="https://www.researchgate.net/profile/Samuel_Sinayoko/info">ResearchGate</a>
+</li>
+<li><a href="https://scholar.google.co.uk/citations?user=FM8flkwAAAAJ&hl=en&oi=ao">Google Scholar</a>
+</li>
+<li><a href="http://orcid.org/0000-0002-0633-9916">ORCID</a>
+</li>
+<li><a href="https://www.linkedin.com/pub/samuel-sinayoko/4/320/b04">Linkedin</a>
+</li>
+<li><a href="https://www.youtube.com/playlist?list=PLLSpj1RTyogOA8FxY8T8NNJ93CDhqxy-Y">YouTube</a> channel on Aeroacoustics featuring videos by Sir James Lighthill and John Ffowcs
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3">What I'm Tweeting</h3>
+<div class="outline-text-3" id="text-1-3">
+<a class="twitter-timeline" href="https://twitter.com/sinayoko" data-widget-id="315621819526811648">Tweets by @sinayoko</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+</div>
+</div>
+<div id="outline-container-research" class="outline-2">
+<h2 id="research"><a id="sec-2" name="sec-2"></a>Research</h2>
+<div class="outline-text-2" id="text-research">
+</div>
+<div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1">Vacancies</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+See the "Vacancies" tab above for current opportunities.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2">Current projects</h3>
+<div class="outline-text-3" id="text-2-2">
+</div><div id="outline-container-sec-2-2-1" class="outline-4">
+<h4 id="sec-2-2-1">Acoustic Energy in Turbulent Flows</h4>
+<div class="outline-text-4" id="text-2-2-1">
+<p>
+<i>September 2013 &#x2013; September 2016, University of Southampton</i>
+</p>
+
+<div class="figure">
+<p><img src="images/research/energy_abstract.jpg" alt="energy_abstract.jpg" />
+</p>
+<p><span class="figure-number">Figure 1:</span> <i>Figure: Sound energy is not well defined in a turbulent flow. Improving current definitions will help us understand sound energy is generated and propagated through a turbulent flow, and therefore how it can be reduced.</i></p>
+</div>
+</div>
+<div id="outline-container-sec-2-2-1-1" class="outline-5">
+<h5 id="sec-2-2-1-1">Introduction</h5>
+<div class="outline-text-5" id="text-2-2-1-1">
+<p>
+An aircraft during take-off generates some of the highest noise levels on earth, loud enough to irreparably damage the hearing of anyone sitting close-by. The noise is particularly distressing to people living near airports and the situation is worsening due to the growth in air traffic. Stringent noise legislation are being put in place so it is urgent to reduce aircraft noise. Where does the noise come from? Although one may think about vibrating surfaces, it is vibrations in the air itself that are responsible. The science that studies this mechanism is called aeroacoustics.
+</p>
+
+<p>
+The biggest problem in aeroacoustics is this: although we know the air generates the sound, how it does so remains mysterious. The reason is that sound waves are tiny compared to other flow fluctuations: the magnitude of the wind fluctuations are enormous compared to that of the noise they generate. It becomes impossible to tell where sound is coming from: the source of sound is hidden from us. This unfortunate situation may be about to change however. Just like a prism splits a ray of light into different colours, a mathematical technique allows to separate the flow fluctuations according to their speed. Since acoustic waves happen to travel much faster than other fluctuations, it becomes possible to identify them. A new research project aims to build on this technique to not only identify the noise fluctuations within the flow, but to understand for the first time how that noise is generated.
+</p>
+
+<p>
+To study noise generation, scientists choose between two competing concepts: the noise sources and the acoustic energy. It remains to be seen which one will prove to be the most useful. What is becoming clear is that the technique described above stands to revolutionize the way these two concepts are defined so competition is heating up. Recent studies have been focusing on the noise sources and have already improved our understanding of them. This new project will be focusing instead on acoustic energy. It may well finally explain how wind generates noise and how we can make it quiet.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-2-2-1-2" class="outline-5">
+<h5 id="sec-2-2-1-2">Team</h5>
+<div class="outline-text-5" id="text-2-2-1-2">
+<p>
+I am the sole investigator on this project for which I have been awarded the <a href="http://www.royalcommission1851.org.uk/">2013 Brunel Fellowship by the Royal Commission of 1851</a>.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-2-2" class="outline-4">
+<h4 id="sec-2-2-2">Spacetime Aeroacoustics</h4>
+<div class="outline-text-4" id="text-2-2-2">
+<p>
+<i>June 2013 &#x2013; June 2014, collaboration between the University of Cambridge and the University of Southampton</i>
+</p>
+
+<div class="figure">
+<p><img src="images/research/general_relativity_large.jpg" alt="general_relativity_large.jpg" />
+</p>
+<p><span class="figure-number">Figure 2:</span> <i>Figure: Just like gravity bends light waves, flow bends sound waves. We therefore model noise propagation in a fluid using techniques from the theory of relativity.</i></p>
+</div>
+</div>
+<div id="outline-container-sec-2-2-2-1" class="outline-5">
+<h5 id="sec-2-2-2-1">Introduction</h5>
+<div class="outline-text-5" id="text-2-2-2-1">
+<p>
+Although time is usually treated as independent of space, this is not the case for sound waves. For a sound waves, space and time are connected via the speed of sound. For example, the distance \(r\) from source to observer is related to the time taken for sound to travel from the source to the observer by
+</p>
+\begin{equation}
+r = c t.
+\end{equation}
+<p>
+Another way of expressing this is
+</p>
+\begin{equation}
+k = \omega / c,
+\end{equation}
+<p>
+which relates the <a href="http://en.wikipedia.org/wiki/Wavenumber">wavenumber</a> \(k\) of the sound wave to its <a href="http://en.wikipedia.org/wiki/Frequency">frequency</a> \(\omega\).
+</p>
+
+<p>
+We are therefore modelling aeroacoustics phenomena in a 4 dimensional space (3 spatial coordinates and 1 time coordinate) called the acoustic spacetime. This problem is very similar to the study of light waves which, as Einstein showed, is best carried out <i> in a 4 dimensional spacetime</i>. We therefore define an <i>acoustic spacetime</i> by using all the techniques developed by physicists for the theory of special and general relativity. Instead of using the coordinate-heavy tensors, we use the wonderful coordinate-free language of <a href="http://en.wikipedia.org/wiki/Geometric_algebra">Geometric Algebra</a> (arguably <a href="http://www.amazon.co.uk/Geometric-Algebra-Physicists-Chris-Doran/dp/0521715954">the best mathematical language for physics</a>).
+</p>
+
+<p>
+One of the key advantages of working in acoustic spacetime, is that it facilitate the use of transformations turning the problem at hand into a simpler problem. For example, combining a Galilean transformation with a Lorentz transformation turns a uniform flow problem into a zero flow problem. The Taylor transformation turns a low Mach number potential flow problem into a zero flow problem. We are working on generalizing the Taylor transformation to any subsonic Mach number.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-2-2-2-2" class="outline-5">
+<h5 id="sec-2-2-2-2">Related work</h5>
+<div class="outline-text-5" id="text-2-2-2-2">
+<p>
+Applications of techniques from general relativity to engineering are yielding impressive results. Some of the most exciting developments are cloacking devices that render an object invisible to electromagnetic waves or sound waves.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-2-2-2-3" class="outline-5">
+<h5 id="sec-2-2-2-3">Project Team</h5>
+<div class="outline-text-5" id="text-2-2-2-3">
+<p>
+This 1 year project is being carried out by 4th year undergraduate student Alastair Gregory at the University of Cambridge, under the supervision of Anurag Agarwal and Joan Lasenby and myself.
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3">Previous projects</h3>
+<div class="outline-text-3" id="text-2-3">
+</div><div id="outline-container-sec-2-3-1" class="outline-4">
+<h4 id="sec-2-3-1">Gas Turbine Noise</h4>
+<div class="outline-text-4" id="text-2-3-1">
+<p>
+<i>January 2013 &#x2013; September 2013, Department of Engineering, University of Cambridge</i>
+</p>
+
+<p>
+I am working on modelling and reducing gas turbine exhaust noise. The objective is to optimize the struts at the exhaust of the turbine for noise reduction. This project will use a combination of experimental, theoretical and numerical work in collaboration with the Whittle Lab. It is funded by Mitsubishi Heavy Industries.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-2-3-2" class="outline-4">
+<h4 id="sec-2-3-2">Wind Turbine Noise and Open Rotor Noise</h4>
+<div class="outline-text-4" id="text-2-3-2">
+<p>
+<i>June 2011 &#x2013; December 2012, Department of Engineering, University of Cambridge</i>
+</p>
+
+<p>
+I have developed models for the prediction of wind turbine noise. For large wind turbines, the main source of noise is trailing edge noise. Trailing edge noise is generated when a turbulent gust reaches the trailing edge. Amiet has shown how to predict trailing edge noise for a fixed airfoil. He later extended his theory to predict trailing edge noise for rotating airfoils. However, there were disagreements on how to do this correctly. We have managed to resolve these disagreements and to show how to predict trailing edge noise for rotating airfoils.
+</p>
+
+<p>
+This project is funded by Mitsubishi Heavy Industries
+</p>
+</div>
+</div>
+<div id="outline-container-sec-2-3-3" class="outline-4">
+<h4 id="sec-2-3-3">Jet Noise</h4>
+<div class="outline-text-4" id="text-2-3-3">
+<p>
+<i>September 2017 &#x2013; May 2011, Department of Engineering, University of Cambridge</i>
+</p>
+
+<p>
+I am exploring the physics of jet noise generation using direct numerical simulation and signal processing.
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-publications" class="outline-2">
+<h2 id="publications"><a id="sec-3" name="sec-3"></a>Publications</h2>
+<div class="outline-text-2" id="text-publications">
+
+<p>
+Articles are shown first, followed by conference papers and theses. Enter some text to filter the entries, for example try "2015", "conference", "AIAA", "Kingan" or "thesis". Columns are sortable (click on the header).
+</p>
+
+<div class="article-content">
+  <form action="" id="quicksearch">
+    <input type="text" id="qs_field" autocomplete="off" placeholder="Type to search..." /> <input type="button" onclick="clearQS()" value="clear" />
+    <span id="searchstat">Matching entries: <span id="stat">0</span></span>
+    <div id="showsettings" onclick="toggleSettings()">settings...</div>
+    <div id="settings" class="hidden">
+      <ul>
+        <li><input type="checkbox" class="search_setting" id="opt_searchAbs" onchange="updateSetting(this)"><label for="opt_searchAbs"> include abstract</label></li>
+        <li><input type="checkbox" class="search_setting" id="opt_searchRev" onchange="updateSetting(this)"><label for="opt_searchRev"> include review</label></li>
+        <li><input type="checkbox" class="search_setting" id="opt_useRegExp" onchange="updateSetting(this)"><label for="opt_useRegExp"> use RegExp</label></li>
+        <li><input type="checkbox" class="search_setting" id="opt_noAccents" onchange="updateSetting(this)"><label for="opt_noAccents"> ignore accents</label></li>
+      </ul>
+    </div>
+  </form>
+  <table id="qs_table" border="1" class="sortable">
+    <!-- <thead><tr><th width="20%">Author</th><th width="30%">Title</th><th width="5%">Year</th><th width="30%">Journal/Proceedings</th><th width="10%">Reftype</th><th width="5%">DOI/URL</th></tr></thead> -->
+    <thead><tr><th width="20%">Author </th><th width="30%">Title </th><th width="5%">Year </th><th width="30%">Journal/Proceedings </th><th width="10%">Reference type </th></tr></thead>
+    <tbody>
+<tr id="baqui_coherence-matched_2015" class="entry">
+  <td>Y.B. Baqui, A. Agarwal, A.V. Cavalieri and S. Sinayoko</td>
+  <td>A coherence-matched linear source mechanism for subsonic jet noise
+    <p class="infolinks">
+      [<a href="javascript:toggleInfo('baqui_coherence-matched_2015','abstract')">abstract</a>] 
+      
+      [<a href="data/journal-papers/BaquiAgarwalCavalieriSinayoko2015_JFM.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('baqui_coherence-matched_2015','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2015</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    Journal of Fluid Mechanics
+    
+    , vol.&nbsp;776
+    , 
+    , pp.&nbsp;235-267
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "Journal of Fluid Mechanics, vol.&nbsp;776, pp.&nbsp;235-267" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    article
+  </td>
+  <!-- <td><a href="http://dx.doi.org/10.1017/jfm.2015.322">DOI</a> <a href="http://www.journals.cambridge.org/abstract_S0022112015003225">URL</a>&nbsp;</td> -->
+</tr>
+
+<tr id="abs_baqui_coherence-matched_2015" class="abstract noshow">
+  <td colspan="5"><b>Abstract</b>: We investigate source mechanisms for subsonic jet noise using experimentally obtained data-sets of high Reynolds number, Mach 0.4 and 0.6 turbulent jets. The focus is on the axisymmetric mode which dominates downstream sound radiation for low polar an- gles and the frequency range at which peak noise occurs. A Linearized Euler Equation (LEE) solver with an inflow boundary condition is used to generate single-frequency hydrodynamic instability waves and the resulting near-field fluctuations and far-field acoustics are compared with those from experiments and Linear Parabolized Stability Equations (LPSE) computations. It is found that near-field velocity fluctuations closely agree with experiments and LPSE up to the end of the potential core, downstream of which deviations occur but LEE results match experiments better than LPSE results. Both the near-field wave packets and the sound field are observed directly from LEE computations, but the far-field sound pressure levels obtained are more than an order of magnitude lower than experimental values despite close statistical agreement of the near hydrodynamic field upto the potential core region. We explore the possibility that this discrepancy is due to the mismatch between the decay of two-point coherence with increasing distance in experimental flow fluctuations and the perfect coherence in linear models. To match the near-field coherence, experimentally obtained coherence profiles are imposed on the two-point cross-spectral density (CSD) at cylindrical and conical surfaces which enclose near-field structures generated with LEE. The surface pressure is propagated to the far-field using boundary value formulations based on the linear wave equation. Coherence-matching yields far-field sound pressure levels which show improved agreement with experimental results, indicating that coherence-decay is the main missing component in linear models. The CSD on the enclosing surfaces reveals that applying a decaying coherence profile spreads the hydrodynamic component of the linear wave packet source on to acoustic wavenumbers, resulting in a more efficient acoustic source.</td>
+</tr>
+
+
+
+<tr id="bib_baqui_coherence-matched_2015" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @article{baqui_coherence-matched_2015,
+      author = {Baqui, Yamin B. and Agarwal, Anurag and Cavalieri, André V. G. and Sinayoko, Samuel},
+      title = {A coherence-matched linear source mechanism for subsonic jet noise},
+      journal = {Journal of Fluid Mechanics},
+      year = {2015},
+      volume = {776},
+      pages = {235--267},
+      url = {http://www.journals.cambridge.org/abstract_S0022112015003225},
+      doi = {http://dx.doi.org/10.1017/jfm.2015.322}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="gregory_acoustic_2014" class="entry">
+  <td>A.L. Gregory, S. Sinayoko, A. Agarwal and J. Lasenby</td>
+  <td>An acoustic space-time and the Lorentz transformation in aeroacoustics
+    <p class="infolinks">
+      [<a href="javascript:toggleInfo('gregory_acoustic_2014','abstract')">abstract</a>] 
+      
+      [<a href="data/journal-papers/Gregory_Sinayoko_Agarwal_Lasenby2015_Acoustic_spacetime_and_Lorentz_transformation_in_aeroacoustics.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('gregory_acoustic_2014','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2015</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    arXiv: 1403.7511, 
+    Accepted for publication in International Journal of Aeroacoustics
+    
+    
+    
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "arXiv: 1403.7511Accepted for publication in International Journal of Aeroacoustics" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    article
+  </td>
+  <!-- <td><a href="http://arxiv.org/abs/1403.7511">URL</a>&nbsp;</td> -->
+</tr>
+
+<tr id="abs_gregory_acoustic_2014" class="abstract noshow">
+  <td colspan="5"><b>Abstract</b>: In this paper we introduce concepts from relativity and geometric algebra to aeroacoustics. We do this using an acoustic space-time transformation within the framework of sound propagation in uniform flows. By using Geometric Algebra we are able to provide a simple geometric interpretation to the space-time transformation, and are able to give neat and lucid derivations of the free-field Green's function for the convected wave equation and the Doppler shift for a stationary observer and a source in uniform rectilinear motion in a uniform flow.</td>
+</tr>
+
+
+
+<tr id="bib_gregory_acoustic_2014" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @article{gregory_acoustic_2014,
+      author = {Gregory, Alastair Logan and Sinayoko, Samuel and Agarwal, Anurag and Lasenby, Joan},
+      title = {An acoustic space-time and the Lorentz transformation in aeroacoustics},
+      journal = {Accepted for publication in International Journal of Aeroacoustics},
+      year = {2015},
+      note = {arXiv: 1403.7511},
+      url = {http://arxiv.org/abs/1403.7511}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="lyu_prediction_2015" class="entry">
+  <td>B. Lyu, M. Azarpeyvand and S. Sinayoko</td>
+  <td>Prediction of noise from serrated trailing-edges
+    <p class="infolinks">
+      [<a href="javascript:toggleInfo('lyu_prediction_2015','abstract')">abstract</a>] 
+      
+      [<a href="data/journal-papers/LyuAzarpeyvandSinayoko2015_arXiv.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('lyu_prediction_2015','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2015</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    arXiv: 1508.02276, 
+    Submitted to Journal of Fluid Mechanics
+    
+    
+    
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "arXiv: 1508.02276Submitted to Journal of Fluid Mechanics" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    article
+  </td>
+  <!-- <td><a href="http://arxiv.org/abs/1508.02276">URL</a>&nbsp;</td> -->
+</tr>
+
+<tr id="abs_lyu_prediction_2015" class="abstract noshow">
+  <td colspan="5"><b>Abstract</b>: A new analytical model is developed for the prediction of noise from serrated trailing-edges. The model generalizes Amiet's trailing-edge noise theory to sawtooth trailing-edges, resulting in an inhomogeneous partial differential equation. The equation is then solved by means of a Fourier expansion technique combined with an iterative procedure. The solution is validated through comparison with finite element method for a variety of serrations at different Mach numbers. Results obtained using the new model predict noise reduction of up to 10 dB at 90 degree above the trailing-edge, which is more realistic than predictions based on Howe's model and also more consistent with experimental observations. A thorough analytical and numerical analysis of the physical mechanism is carried out and suggests that the noise reduction due to serration originates primarily from interference effects near the trailing-edge. A closer inspection of the proposed mathematical model has led to the development of two criteria for the effectiveness of the trailing-edge serrations, consistent but more general than those proposed by Howe. While experimental investigations often focus on noise reduction at ninety degrees above the trailing-edge, the new analytical model shows that the destructive interference scattering effects due to the serrations cause significant noise reduction at large polar angles, near the leading edge. It has also been observed that serrations can significantly change the directivity characteristics of the aerofoil at high frequencies and even lead to noise increase at high Mach numbers.</td>
+</tr>
+
+
+
+<tr id="bib_lyu_prediction_2015" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @article{lyu_prediction_2015,
+      author = {Lyu, B. and Azarpeyvand, M. and Sinayoko, S.},
+      title = {Prediction of noise from serrated trailing-edges},
+      journal = {Submitted to Journal of Fluid Mechanics},
+      year = {2015},
+      note = {arXiv: 1508.02276},
+      url = {http://arxiv.org/abs/1508.02276}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="mancini_integral_2015" class="entry">
+  <td>S. Mancini, R.J. Astley, S. Sinayoko, G. Gabard and M. Tournour</td>
+  <td>An integral formulation for wave propagation on weakly non-uniform potential flows
+    <p class="infolinks">
+      
+      
+      [<a href="data/journal-papers/ManciniAstleySinayokoGabardTournour2015_JASA.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('mancini_integral_2015','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2015</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    arXiv:1509.06426, 
+    Submitted to Journal of the Acoustical Society of America
+    
+    
+    
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "arXiv:1509.06426Submitted to Journal of the Acoustical Society of America" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    article
+  </td>
+  <!-- <td><a href="http://arxiv.org/abs/1509.06426">URL</a>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_mancini_integral_2015" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @article{mancini_integral_2015,
+      author = {Mancini, Simone and Astley, R. Jeremy and Sinayoko, Samuel and Gabard, Gwenael and Tournour, Michel},
+      title = {An integral formulation for wave propagation on weakly non-uniform potential flows},
+      journal = {Submitted to Journal of the Acoustical Society of America},
+      year = {2015},
+      note = {arXiv:1509.06426},
+      url = {http://arxiv.org/abs/1509.06426}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="agarwal_wavenumber_2014" class="entry">
+  <td>A. Agarwal, S. Sinayoko and R.D. Sandberg</td>
+  <td>On the wavenumber spectra for sound within subsonic jets
+    <p class="infolinks">
+      [<a href="javascript:toggleInfo('agarwal_wavenumber_2014','abstract')">abstract</a>] 
+      
+      [<a href="data/journal-papers/sinayoko_agarwal_sandberg_2014_on_wavenumber_spectra_for_sound_within_subsonic_jets.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('agarwal_wavenumber_2014','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2014</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    Journal of the Acoustical Society of America
+    
+    , vol.&nbsp;136 (3)
+    , 
+    , pp.&nbsp;1029-1035
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "Journal of the Acoustical Society of America, vol.&nbsp;136 (3), pp.&nbsp;1029-1035" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    article
+  </td>
+  <!-- <td><a href="http://dx.doi.org/10.1121/1.4890648">DOI</a> <a href="http://scitation.aip.org/content/asa/journal/jasa/136/3/10.1121/1.4890648">URL</a>&nbsp;</td> -->
+</tr>
+
+<tr id="abs_agarwal_wavenumber_2014" class="abstract noshow">
+  <td colspan="5"><b>Abstract</b>: This paper explores the nature of sound spectra within subsonic jets. Three problems of increasing complexity are presented. First, a point source is placed in a two-dimensional plug flow and the sound field is obtained analytically. Second, a point source is embedded in a diverging axisymmetric jet and the sound field is obtained by solving the linearized Euler equations. Finally, an analysis of the acoustic waves propagating through a turbulent jet obtained by direct numerical simulation is presented. In each problem, the pressure or density field is analyzed in the frequency-wavenumber domain. It is found that acoustic waves can be classified into three main frequency-dependent groups. A physical justification is provided for this classification. The main conclusion is that, at low Strouhal numbers, acoustic waves satisfy the d&amp;apos;Alembertian dispersion relation.</td>
+</tr>
+
+
+
+<tr id="bib_agarwal_wavenumber_2014" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @article{agarwal_wavenumber_2014,
+      author = {Agarwal, A. and Sinayoko, S. and Sandberg, R. D.},
+      title = {On the wavenumber spectra for sound within subsonic jets},
+      journal = {Journal of the Acoustical Society of America},
+      year = {2014},
+      volume = {136},
+      number = {3},
+      pages = {1029--1035},
+      url = {http://scitation.aip.org/content/asa/journal/jasa/136/3/10.1121/1.4890648},
+      doi = {http://dx.doi.org/10.1121/1.4890648}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="sinayoko_trailing_2013" class="entry">
+  <td>S. Sinayoko, M. Kingan and A. Agarwal</td>
+  <td>Trailing edge noise theory for rotating blades in uniform flow
+    <p class="infolinks">
+      [<a href="javascript:toggleInfo('sinayoko_trailing_2013','abstract')">abstract</a>] 
+      
+      [<a href="data/journal-papers/Sinayoko_Kingan_Agarwal_2013_ten.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('sinayoko_trailing_2013','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2013</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    Proceedings of the Royal Society A: Mathematical, Physical and Engineering Science
+    
+    , vol.&nbsp;469 (2157)
+    , 
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Science, vol.&nbsp;469 (2157)" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    article
+  </td>
+  <!-- <td><a href="http://dx.doi.org/10.1098/rspa.2013.0065">DOI</a> <a href="http://rspa.royalsocietypublishing.org/content/469/2157/20130065">URL</a>&nbsp;</td> -->
+</tr>
+
+<tr id="abs_sinayoko_trailing_2013" class="abstract noshow">
+  <td colspan="5"><b>Abstract</b>: This paper presents a new formulation for trailing edge noise radiation from rotating blades based on an analytical solution of the convective wave equation. It accounts for distributed loading and the effect of mean flow and spanwise wavenumber. A commonly used theory due to Schlinker and Amiet predicts trailing edge noise radiation from rotating blades. However, different versions of the theory exist; it is not known which version is the correct one, and what the range of validity of the theory is. This paper addresses both questions by deriving Schlinker and Amiet's theory in a simple way and by comparing it with the new formulation, using model blade elements representative of a wind turbine, a cooling fan and an aircraft propeller. The correct form of Schlinker and Amiet's theory is identified. It is valid at high enough frequency, i.e. for a Helmholtz number relative to chord greater than one and a rotational frequency much smaller than the angular frequency of the noise sources.</td>
+</tr>
+
+
+
+<tr id="bib_sinayoko_trailing_2013" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @article{sinayoko_trailing_2013,
+      author = {Sinayoko, S. and Kingan, M. and Agarwal, A.},
+      title = {Trailing edge noise theory for rotating blades in uniform flow},
+      journal = {Proceedings of the Royal Society A: Mathematical, Physical and Engineering Science},
+      year = {2013},
+      volume = {469},
+      number = {2157},
+      url = {http://rspa.royalsocietypublishing.org/content/469/2157/20130065},
+      doi = {http://dx.doi.org/10.1098/rspa.2013.0065}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="sinayoko2012silent" class="entry">
+  <td>S. Sinayoko and A. Agarwal</td>
+  <td>The silent base flow and the sound sources in a laminar jet
+    <p class="infolinks">
+      
+      
+      [<a href="data/journal-papers/Sinayoko_Agarwal_JASA_2012.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('sinayoko2012silent','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2012</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    Journal of the Acoustical Society of America
+    
+    , vol.&nbsp;131
+    , 
+    , pp.&nbsp;1959-1968
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "Journal of the Acoustical Society of America, vol.&nbsp;131, pp.&nbsp;1959-1968" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    article
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_sinayoko2012silent" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @article{sinayoko2012silent,
+      author = {Sinayoko, S. and Agarwal, A.},
+      title = {The silent base flow and the sound sources in a laminar jet},
+      journal = {Journal of the Acoustical Society of America},
+      year = {2012},
+      volume = {131},
+      pages = {1959--1968}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="Sinayoko_JFM_2011" class="entry">
+  <td>S. Sinayoko, A. Agarwal and Z. Hu</td>
+  <td>Flow decomposition and aerodynamic noise generation
+    <p class="infolinks">
+      [<a href="javascript:toggleInfo('Sinayoko_JFM_2011','abstract')">abstract</a>] 
+      
+      [<a href="data/journal-papers/Sinayoko_Agarwal_Hu_JFM_2011.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('Sinayoko_JFM_2011','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2011</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    Journal of Fluid Mechanics
+    
+    , vol.&nbsp;668
+    , 
+    , pp.&nbsp;335-350
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "Journal of Fluid Mechanics, vol.&nbsp;668, pp.&nbsp;335-350" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    article
+  </td>
+  <!-- <td><a href="http://dx.doi.org/10.1017/S0022112010004672">URL</a>&nbsp;</td> -->
+</tr>
+
+<tr id="abs_Sinayoko_JFM_2011" class="abstract noshow">
+  <td colspan="5"><b>Abstract</b>: An approximate decomposition of fluid-flow variables satisfying unbounded compressible Navier–Stokes equations into acoustically radiating and non-radiating components leads to well-defined source terms that can be identified as the physical sources of aerodynamic noise. We show that, by filtering the flow field by means of a linear convolution filter, it is possible to decompose the flow into non-radiating and radiating components. This is demonstrated on two different flows: one satisfying the linearised Euler equations and the other the Navier–Stokes equations. In the latter case, the corresponding sound sources are computed. They are found to be more physical than those computed through classical acoustic analogies in which the flow field is decomposed into a steady mean and fluctuating component.<br></td>
+</tr>
+
+
+
+<tr id="bib_Sinayoko_JFM_2011" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @article{Sinayoko_JFM_2011,
+      author = {Sinayoko, S. and Agarwal, A. and Hu, Z.},
+      title = {Flow decomposition and aerodynamic noise generation},
+      journal = {Journal of Fluid Mechanics},
+      year = {2011},
+      volume = {668},
+      pages = {335--350},
+      url = {http://dx.doi.org/10.1017/S0022112010004672}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="Sinayoko2010_IUTAM" class="entry">
+  <td>S. Sinayoko and A. Agarwal</td>
+  <td>Flow filtering and the physical sources of aerodynamic sound
+    <p class="infolinks">
+      
+      
+      
+      
+      [<a href="javascript:toggleInfo('Sinayoko2010_IUTAM','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2010</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    Procedia Engineering
+    , IUTAM symposium on computational aeroacoustics for aircraft noise prediction
+    , vol.&nbsp;6
+    , IUTAM symposium on computational aeroacoustics for aircraft noise prediction
+    , pp.&nbsp;94-103
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "Procedia Engineering, vol.&nbsp;6, IUTAM symposium on computational aeroacoustics for aircraft noise prediction, pp.&nbsp;94-103" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    article
+  </td>
+  <!-- <td><a href="http://dx.doi.org/10.1016/j.proeng.2010.09.011">URL</a>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_Sinayoko2010_IUTAM" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @article{Sinayoko2010_IUTAM,
+      author = {Sinayoko, S. and Agarwal, A.},
+      title = {Flow filtering and the physical sources of aerodynamic sound},
+      booktitle = {IUTAM symposium on computational aeroacoustics for aircraft noise prediction},
+      journal = {Procedia Engineering},
+      publisher = {Elsevier},
+      year = {2010},
+      volume = {6},
+      pages = {94--103},
+      url = {http://dx.doi.org/10.1016/j.proeng.2010.09.011}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="sinayoko2010multimode" class="entry">
+  <td>S. Sinayoko, P.F. Joseph and A. McAlpine</td>
+  <td>Multimode radiation from an unflanged, semi-infinite circular duct with uniform flow
+    <p class="infolinks">
+      
+      
+      [<a href="data/journal-papers/SinayokoJosephMcAlpine2010_MultimodeRadiation.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('sinayoko2010multimode','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2010</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    Journal of the Acoustical Society of America
+    
+    , vol.&nbsp;127(4)
+    , 
+    , pp.&nbsp;2159-2168
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "Journal of the Acoustical Society of America, vol.&nbsp;127(4), pp.&nbsp;2159-2168" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    article
+  </td>
+  <!-- <td><a href="http://dx.doi.org/10.1121/1.3327814">URL</a>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_sinayoko2010multimode" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @article{sinayoko2010multimode,
+      author = {Sinayoko, S. and Joseph, P. F. and McAlpine, A.},
+      title = {Multimode radiation from an unflanged, semi-infinite circular duct with uniform flow},
+      journal = {Journal of the Acoustical Society of America},
+      year = {2010},
+      volume = {127(4)},
+      pages = {2159-2168},
+      url = {http://dx.doi.org/10.1121/1.3327814}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="gregory2015_ICSV" class="entry">
+  <td>A. Gregory, A. Agarwal, J.L. Lasenby and S. Sinayoko</td>
+  <td>Geometric Algebra and an Acoustic Space Time for Propagation in Non-Uniform Flow
+    <p class="infolinks">
+      
+      
+      [<a href="data/conference-papers/GregoryAgarwalLasenbySinayoko2015_ICSV.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('gregory2015_ICSV','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2015</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    
+    
+    
+    22nd International Congress on Sound and Vibration (ICSV), Florence, Italy, 15-19 July 2015
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- ", 22nd International Congress on Sound and Vibration (ICSV), Florence, Italy, 15-19 July 2015" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_gregory2015_ICSV" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{gregory2015_ICSV,
+      author = {Gregory, A. and Agarwal, A. and Lasenby, J. L. and Sinayoko, S. },
+      title = {Geometric Algebra and an Acoustic Space Time for Propagation in Non-Uniform Flow},
+      booktitle = {22nd International Congress on Sound and Vibration (ICSV), Florence, Italy, 15--19 July 2015},
+      year = {2015}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="LyuAzarpeyvandSinayoko2015" class="entry">
+  <td>B. Lyu, M. Azarpeyvand and S. Sinayoko</td>
+  <td>A Trailing-Edge Noise Model for Serrated Edges
+    <p class="infolinks">
+      [<a href="javascript:toggleInfo('LyuAzarpeyvandSinayoko2015','abstract')">abstract</a>] 
+      
+      [<a href="data/conference-papers/LyuAzarpeyvandSinayoko2015_AIAA.pdf">pdf</a>]
+      [<a href="data/conference-papers/LyuAzarpeyvandSinayoko2015_AIAA_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('LyuAzarpeyvandSinayoko2015','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2015</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    AIAA paper 2015-2362, 
+    
+    
+    
+    21th AIAA/CEAS Aeroacoustics Conference, Aviation 2015, Dallas, USA, 22-26 June 2015
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "AIAA paper 2015-2362, 21th AIAA/CEAS Aeroacoustics Conference, Aviation 2015, Dallas, USA, 22-26 June 2015" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+<tr id="abs_LyuAzarpeyvandSinayoko2015" class="abstract noshow">
+  <td colspan="5"><b>Abstract</b>: This paper is concerned with the development of a theoretical model for the prediction of the sound radiated by serrated trailing-edges. The proposed model is based on Fourier expansion and Amiet's formulation. By using an iterative PDE-solving procedure, the scattered pressure field on the surface of an airfoil with sawtooth trailing-edge serrations is obtained. The far-field sound is then evaluated using the surface pressure integral based on the theories of Kirchhoff and Curle. The power spectral density (PSD) of the far-field sound is then related to the wavenumber spectral density of the hypothetical surface pressure under the turbulent boundary layer that would exist when the trailing-edge is absent. Numerical evaluation of the new model has shown better agreement than that obtained using Howe's model. Based on the new model, the sound reduction achieved by a trailing-edge with sharp sawtooth serrations is around 5-10 dB for a wide frequency range. This result better agrees with experiments, in which the average sound reduction is reported to be 5-7 dB. The results obtained using the new analytical model also agree well with FEM computations, suggesting that the model developed in this paper can capture the essential physics and give correct predictions for the sound generated by serrated trailing- edges. In the end, the physical mechanism of noise reduction is found to be the destructive interference effect of the scattered pressure field.<br></td>
+</tr>
+
+
+
+<tr id="bib_LyuAzarpeyvandSinayoko2015" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{LyuAzarpeyvandSinayoko2015,
+      author = {Lyu, B. and Azarpeyvand, M. and Sinayoko, S.},
+      title = {A Trailing-Edge Noise Model for Serrated Edges},
+      booktitle = {21th AIAA/CEAS Aeroacoustics Conference, Aviation 2015, Dallas, USA, 22--26 June 2015},
+      year = {2015},
+      note = {AIAA paper 2015--2362}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="mancini2015_euronoise" class="entry">
+  <td>S. Mancini, R.J. Astley, G. Gabard, S. Sinayoko and M. Tournour</td>
+  <td>A quasi-potential flow formulation for the prediction of the effect of the circulation on the acoustic shielding from a lifting body by means
+    <p class="infolinks">
+      [<a href="javascript:toggleInfo('mancini2015_euronoise','abstract')">abstract</a>] 
+      
+      [<a href="data/conference-papers/ManciniAstleySinayokoGabardTournour2015_Euronoise.pdf">pdf</a>]
+      [<a href="data/conference-papers/ManciniAstleySinayokoGabardTournour2015_Euronoise_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('mancini2015_euronoise','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2015</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    
+    
+    
+    Euronoise 2015, 01-03 June 2015, Maastricht, Netherlands
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- ", Euronoise 2015, 01-03 June 2015, Maastricht, Netherlands" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+<tr id="abs_mancini2015_euronoise" class="abstract noshow">
+  <td colspan="5"><b>Abstract</b>: This paper presents a new simplied approach for the prediction of the acoustic shielding from lifting bodies by means of a finite element method. It extends a method already validated for aerodynamic applications to Aeroacoustics on the basis of the small perturbation expansion. A numerical model to represent the effect of the circulation developed by a slender body on the noise radiation in an unbounded domain is provided. A quasi-potential flow formulation is adopted by introducing a simplied shear layer model: a frozen wake with finite thickness and extent. The effect of the sound diffraction in the wake region is accounted for by applying the continuity of pressure across the wake line in the aeroacoustic field. An incompressible steady mean flow is considered and the Kutta condition is applied to overcome the singularity at the trailing edge. The circulation in the mean flow is predicted by reducing the potential solution to a single-valued problem. The non-uniform base flow is superimposed on the wave propagation and the linear aeroacoustic problem is solved by means of the full acoustic potential equation. The nite element method is applied both to the solution of the base flow and to the acoustic radiation. The acoustic eld scattered by a 2D airfoil from a line source in presence of a non-uniform base flow is predicted as a numerical example of the proposed model. The circulation modies the extent of the acoustic shielding by altering the wave propagation around the slender body, the wave diffraction at the trailing edge and the refraction in the shear layer.<br></td>
+</tr>
+
+
+
+<tr id="bib_mancini2015_euronoise" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{mancini2015_euronoise,
+      author = {Mancini, S. and Astley, R. J. and Gabard, G. and Sinayoko, S. and Tournour, M.},
+      title = {A quasi-potential flow formulation for the prediction of the effect of the circulation on the acoustic shielding from a lifting body by means},
+      booktitle = {Euronoise 2015, 01--03 June 2015, Maastricht, Netherlands},
+      year = {2015}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="mancini2015_ICSV" class="entry">
+  <td>S. Mancini, R.J. Astley, G. Gabard, S. Sinayoko and M. Tournour</td>
+  <td>A combined FEM/Radiating-surface approach for noise propagation in unbounded domains with mean flow
+    <p class="infolinks">
+      [<a href="javascript:toggleInfo('mancini2015_ICSV','abstract')">abstract</a>] 
+      
+      [<a href="data/conference-papers/ManciniAstleySinayokoGabardTournour2015_ICSV.pdf">pdf</a>]
+      [<a href="data/conference-papers/ManciniAstleySinayokoGabardTournour2015_ICSV_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('mancini2015_ICSV','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2015</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    
+    
+    
+    22nd International Congress on Sound and Vibration (ICSV), Florence, Italy, 15-19 July 2015
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- ", 22nd International Congress on Sound and Vibration (ICSV), Florence, Italy, 15-19 July 2015" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+<tr id="abs_mancini2015_ICSV" class="abstract noshow">
+  <td colspan="5"><b>Abstract</b>: The focus of this study is to present the limitations of a hybrid numerical method for the prediction of sound propagation and scattering within an unbounded domain. We present a combined Finite Element Method (FEM)/Radiating-surface approach based on a Kirchhoff's integral for- mulation with a mean flow. This work identifies the sources of numerical error inherent to the hybrid method. A potential formulation is adopted for wave propagation and the problem is set in the frequency domain. The finite element method is applied to solve the scattering problem in presence of non-uniformities. The FEM solution, combined with a Perfectly Matched Layer (PML), is mapped on a closed surface. The Kirchhoff's radiating surface with a uniform mean flow propagates acoustic waves in free field. The problem of radiation from a monopole source and the scattering by a cylinder from the same source are presented as numerical examples by ac- counting for a subsonic mean flow. The accuracy in the prediction of the acoustic particle velocity is critical for the efficacy of the method. The main achievement is that the detrimental effect of the mean flow on the pollution error can be limited by applying the hybrid method. On the other hand, the integral formulation is exact only for a uniform mean flow.<br></td>
+</tr>
+
+
+
+<tr id="bib_mancini2015_ICSV" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{mancini2015_ICSV,
+      author = {Mancini, S. and Astley, R. J. and Gabard, G. and Sinayoko, S. and Tournour, M.},
+      title = {A combined FEM/Radiating-surface approach for noise propagation in unbounded domains with mean flow},
+      booktitle = {22nd International Congress on Sound and Vibration (ICSV), Florence, Italy, 15--19 July 2015},
+      year = {2015}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="Sinayoko2015_AIAA" class="entry">
+  <td>S. Sinayoko</td>
+  <td>Broadband noise for rotating blades: analysis of acceleration effects in the time and frequency domains
+    <p class="infolinks">
+      [<a href="javascript:toggleInfo('Sinayoko2015_AIAA','abstract')">abstract</a>] 
+      
+      [<a href="data/conference-papers/Sinayoko2015_AIAA.pdf">pdf</a>]
+      [<a href="data/conference-papers/Sinayoko2015_AIAA_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('Sinayoko2015_AIAA','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2015</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    AIAA paper 2015-2983, 
+    
+    
+    
+    21th AIAA/CEAS Aeroacoustics Conference, Aviation 2015, Dallas, USA, 22-26 June 2015
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "AIAA paper 2015-2983, 21th AIAA/CEAS Aeroacoustics Conference, Aviation 2015, Dallas, USA, 22-26 June 2015" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+<tr id="abs_Sinayoko2015_AIAA" class="abstract noshow">
+  <td colspan="5"><b>Abstract</b>: The importance of acceleration in predicting broadband aerofoil noise for high speed blades remains poorly understood. For high speed blades, acceleration becomes significant and Amiet's popular model predicting broadband noise for rotating blades should become invalid. However, previous work suggests that Amiet's model may be applicable even to high speed rotating blades. Previous attempts at clarifying this issue have focused on modelling trailing ede noise in the frequency domain. However, this issue is best studied in the time domain and for the leading edge problem. This paper implements Amiet's blade response functions for leading edge noise in the time domain, using a convected form of the Ffowcs-Williams and Hawkings equations. This allows to easily pinpoint the contribution of acceleration on aerofoil broadband noise. Results show that acceleration can be neglected for high speed propellers when the ratio of frequency over rotor angular velocity is larger than ten percent.</td>
+</tr>
+
+
+
+<tr id="bib_Sinayoko2015_AIAA" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{Sinayoko2015_AIAA,
+      author = {Sinayoko, S.},
+      title = {Broadband noise for rotating blades: analysis of acceleration effects in the time and frequency domains},
+      booktitle = {21th AIAA/CEAS Aeroacoustics Conference, Aviation 2015, Dallas, USA, 22--26 June 2015},
+      year = {2015},
+      note = {AIAA paper 2015--2983}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="sinayoko_wtn2015" class="entry">
+  <td>S. Sinayoko and J. Hurault</td>
+  <td>Efficient prediction of wind turbine noise in the frequency domain using Amiet's theory
+    <p class="infolinks">
+      [<a href="javascript:toggleInfo('sinayoko_wtn2015','abstract')">abstract</a>] 
+      
+      [<a href="data/conference-papers/sinayoko_hurault_2015_Efficient_prediction_of_wind_turbine_noise_in_the_frequency_domain_using_Amiet_theory.pdf">pdf</a>]
+      [<a href="data/conference-papers/sinayoko_hurault_2015_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('sinayoko_wtn2015','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2015</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    
+    
+    
+    6th International Conferences on Wind Turbine Noise 2015, Glasgow, UK, 20-23 April 2015
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- ", 6th International Conferences on Wind Turbine Noise 2015, Glasgow, UK, 20-23 April 2015" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+<tr id="abs_sinayoko_wtn2015" class="abstract noshow">
+  <td colspan="5"><b>Abstract</b>: Amiet's aerofoil broadband noise theory is ideally suited to modelling wind turbine noise but few attempt have been published on validating it against experimental data for a full turbine. The main objective of this paper is to present such a validation. Furthermore, slightly different versions of Amiet's theory have been published, making it unclear how to apply it. This paper first reviews and clarifies the outstanding pitfalls in the application of Amiet's theory. The theory is then used to predict the sound power level and amplitude modulation for the DAN-AERO 40m radius turbine. Both trailing edge noise and leading edge noise are considered. Finally, Amiet's theory is used to estimate amplitude modulation. In all cases, results are in good agreement with available experimental data. This paper provides an example of the flexibility and effectiveness of Amiet's theory for predicting wind turbine noise.</td>
+</tr>
+
+
+
+<tr id="bib_sinayoko_wtn2015" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{sinayoko_wtn2015,
+      author = {Sinayoko, Samuel and Hurault, Jeremy},
+      title = {Efficient prediction of wind turbine noise in the frequency domain using Amiet's theory},
+      booktitle = {6th International Conferences on Wind Turbine Noise 2015, Glasgow, UK, 20--23 April 2015},
+      year = {2015}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="sinayoko2015_ICSV" class="entry">
+  <td>S. Sinayoko, M.C.M. Wright and R.D. Sandberg</td>
+  <td>A Generalised Ffowcs-Williams And Hawkings Formulation Applied To Flow Simulations With VortiCal Outflow
+    <p class="infolinks">
+      [<a href="javascript:toggleInfo('sinayoko2015_ICSV','abstract')">abstract</a>] 
+      
+      [<a href="data/conference-papers/SinayokoWrightSandberg2015_ICSV.pdf">pdf</a>]
+      [<a href="data/conference-papers/SinayokoWrightSandberg2015_ICSV_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('sinayoko2015_ICSV','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2015</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    
+    
+    
+    22nd International Congress on Sound and Vibration (ICSV), Florence, Italy, 15-19 July 2015
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- ", 22nd International Congress on Sound and Vibration (ICSV), Florence, Italy, 15-19 July 2015" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+<tr id="abs_sinayoko2015_ICSV" class="abstract noshow">
+  <td colspan="5"><b>Abstract</b>: The FW-H equations allow to extrapolate acoustic fluctuations outside of a particular surface. In many applications, such as jet noise or turbomachinary noise, parts of the surface may lie in regions of high vorticity. Vorticity crossing the surface generates spurious noise sources in the thickness and loading terms. These sources are cancelled out by the quadrupole sources outside of the surface. Unfortunately, these quadrupole sources are usually neglected which leads to incorrect noise predictions. A generalized form of the FW-H formulation was recently developed to overcome this problem. It relies on a distributed extrapolation zone, instead of a single surface. This paper applies this new theory to the simplified problem of a divergence-free Gaussian vortex crossing a spherical FW-H surface. It is shown that the two key parameters driving the accuracy of the noise prediction are the distance between two outflow surfaces, which should be bigger than the characteristic length of the vortex, and the thickness of the outflow region, which should be small compared to the acoustic wavelength. Reductions in the sound pressure level of the spurious noise of up to 13 dB are obtained using 4 surfaces.</td>
+</tr>
+
+
+
+<tr id="bib_sinayoko2015_ICSV" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{sinayoko2015_ICSV,
+      author = {Sinayoko, Samuel and Wright, M. C. M. and Sandberg, Richard D.},
+      title = {A Generalised Ffowcs-Williams And Hawkings Formulation Applied To Flow Simulations With VortiCal Outflow},
+      booktitle = {22nd International Congress on Sound and Vibration (ICSV), Florence, Italy, 15--19 July 2015},
+      year = {2015}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="SinayokoAzarpeyvandLyu2014" class="entry">
+  <td>S. Sinayoko, M. Azarpeyvand and B. Lyu</td>
+  <td>Trailing edge noise prediction for rotating serrated blades
+    <p class="infolinks">
+      [<a href="javascript:toggleInfo('SinayokoAzarpeyvandLyu2014','abstract')">abstract</a>] 
+      
+      [<a href="data/conference-papers/Sinayoko_Azarpeyvand_Lyu_2014_AIAA.pdf">pdf</a>]
+      [<a href="data/conference-papers/SinayokoAzarpeyvandLyu2014_AIAA_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('SinayokoAzarpeyvandLyu2014','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2014</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    AIAA paper 2014-3296, 
+    
+    
+    
+    20th AIAA/CEAS Aeroacoustics Conference, Aviation 2014, Atlanta, USA, 16-20 June 2014
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "AIAA paper 2014-3296, 20th AIAA/CEAS Aeroacoustics Conference, Aviation 2014, Atlanta, USA, 16-20 June 2014" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+<tr id="abs_SinayokoAzarpeyvandLyu2014" class="abstract noshow">
+  <td colspan="5"><b>Abstract</b>: Serrations have been widely studied in the case of stationary blades, as an efficient method for reducing trailing edge noise. However, most of the problems involving trail- ing edge noise are related to rotating blades and it is not known how rotation affects the efficiency of serrations. This paper tackles this problem using an efficient analytical model for predicting trailing edge noise radiation for rotating serrated blades. The model combines Howe's low Mach number isolated airfoil theory with Amiet's rotating airfoil technique. The paper also outlines a theory that generalizes Amiet's stationary airfoil the- ory to serrated trailing edges. Three different types of serrations – sinusoidal, sawtooth and slitted-sawtooth – are investigated for a model wind turbine blade element. The influence of the serrations width, depth, and slits, on noise radiation is compared to known results valid for stationary blades. The best serrations are narrow (relative to the boundary layer thickness) and deep. Rotation has been found to have little impact on the performance of serrations at low Mach numbers.<br></td>
+</tr>
+
+
+
+<tr id="bib_SinayokoAzarpeyvandLyu2014" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{SinayokoAzarpeyvandLyu2014,
+      author = {Sinayoko, S. and Azarpeyvand, M. and Lyu, B.},
+      title = {Trailing edge noise prediction for rotating serrated blades},
+      booktitle = {20th AIAA/CEAS Aeroacoustics Conference, Aviation 2014, Atlanta, USA, 16--20 June 2014},
+      year = {2014},
+      note = {AIAA paper 2014--3296}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="BBaqui2013_aiaa" class="entry">
+  <td>Y. Bin Baqui, A. Agarwal, A. Cavalieri and S. Sinayoko</td>
+  <td>Nonlinear and linear noise source mechanisms in subsonic jets
+    <p class="infolinks">
+      
+      
+      
+      
+      [<a href="javascript:toggleInfo('BBaqui2013_aiaa','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2013</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    AIAA paper 2013-2087, 
+    
+    
+    
+    19th AIAA/CEAS Aeroacoustics Conference, Berlin, Germany, 27-29 May 2013
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "AIAA paper 2013-2087, 19th AIAA/CEAS Aeroacoustics Conference, Berlin, Germany, 27-29 May 2013" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_BBaqui2013_aiaa" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{BBaqui2013_aiaa,
+      author = {Bin Baqui, Y. and Agarwal, A. and Cavalieri, A. and Sinayoko, S.},
+      title = {Nonlinear and linear noise source mechanisms in subsonic jets},
+      booktitle = {19th AIAA/CEAS Aeroacoustics Conference, Berlin, Germany, 27--29 May 2013},
+      year = {2013},
+      note = {AIAA paper 2013-2087}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="Sinayoko2013_aiaa2" class="entry">
+  <td>S. Sinayoko and A. Agarwal</td>
+  <td>A comparison of the silent base flow and vortex sound analogy sources in high speed subsonic jets
+    <p class="infolinks">
+      
+      
+      [<a href="data/conference-papers/SinayokoAgarwal2013_AIAA.pdf">pdf</a>]
+      [<a href="data/conference-papers/SinayokoAgarwal2013_AIAA_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('Sinayoko2013_aiaa2','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2013</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    AIAA paper 2013-2086, 
+    
+    
+    
+    19th AIAA/CEAS Aeroacoustics Conference, Berlin, Germany, 27-29 May 2013
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "AIAA paper 2013-2086, 19th AIAA/CEAS Aeroacoustics Conference, Berlin, Germany, 27-29 May 2013" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_Sinayoko2013_aiaa2" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{Sinayoko2013_aiaa2,
+      author = {Sinayoko, S. and Agarwal, A.},
+      title = {A comparison of the silent base flow and vortex sound analogy sources in high speed subsonic jets},
+      booktitle = {19th AIAA/CEAS Aeroacoustics Conference, Berlin, Germany, 27--29 May 2013},
+      year = {2013},
+      note = {AIAA paper 2013-2086}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="Sinayoko2013_aiaa1" class="entry">
+  <td>S. Sinayoko, M. Kingan and A. Agarwal</td>
+  <td>On the effect of acceleration on trailing edge noise from rotating blades
+    <p class="infolinks">
+      
+      
+      [<a href="data/conference-papers/SinayokoKinganAgarwal2013_AIAA.pdf">pdf</a>]
+      [<a href="data/conference-papers/SinayokoKinganAgarwal2013_AIAA_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('Sinayoko2013_aiaa1','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2013</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    AIAA paper 2013-2287, 
+    
+    
+    
+    19th AIAA/CEAS Aeroacoustics Conference, Berlin, Germany, 27-29 May 2013
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "AIAA paper 2013-2287, 19th AIAA/CEAS Aeroacoustics Conference, Berlin, Germany, 27-29 May 2013" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_Sinayoko2013_aiaa1" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{Sinayoko2013_aiaa1,
+      author = {Sinayoko, S. and M. Kingan and Agarwal, A.},
+      title = {On the effect of acceleration on trailing edge noise from rotating blades},
+      booktitle = {19th AIAA/CEAS Aeroacoustics Conference, Berlin, Germany, 27--29 May 2013},
+      year = {2013},
+      note = {AIAA paper 2013-2287}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="Sinayoko2012_aiaa" class="entry">
+  <td>S. Sinayoko, M. Kingan and A. Agarwal</td>
+  <td>Trailing edge noise prediction for rotating blades: analysis and comparison of two classical approaches
+    <p class="infolinks">
+      
+      
+      [<a href="data/conference-papers/SinayokoKinganAgarwal2012_AIAA.pdf">pdf</a>]
+      [<a href="data/conference-papers/SinayokoKinganAgarwal2012_AIAA_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('Sinayoko2012_aiaa','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2012</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    AIAA paper 2012-2302, 
+    
+    
+    
+    18th AIAA/CEAS Aeroacoustics Conference, Colorado Springs, USA, 4-6 June 2012
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "AIAA paper 2012-2302, 18th AIAA/CEAS Aeroacoustics Conference, Colorado Springs, USA, 4-6 June 2012" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_Sinayoko2012_aiaa" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{Sinayoko2012_aiaa,
+      author = {Sinayoko, S. and Kingan, M. and Agarwal, A.},
+      title = {Trailing edge noise prediction for rotating blades: analysis and comparison of two classical approaches},
+      booktitle = {18th AIAA/CEAS Aeroacoustics Conference, Colorado Springs, USA, 4--6 June 2012},
+      year = {2012},
+      note = {AIAA paper 2012-2302}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="Sinayoko2011_aiaa" class="entry">
+  <td>S. Sinayoko, A. Agarwal and R. Sandberg</td>
+  <td>Physical sources of sound in laminar and turbulent jets
+    <p class="infolinks">
+      
+      
+      [<a href="data/conference-papers/SinayokoAgarwalSandberg2011_AIAA.pdf">pdf</a>]
+      [<a href="data/conference-papers/SinayokoAgarwalSandberg2011_AIAA_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('Sinayoko2011_aiaa','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2011</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    AIAA paper 2011-2916, 
+    
+    
+    
+    17th AIAA/CEAS Aeroacoustics Conference, Portland, USA, 5-8 June 2011
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "AIAA paper 2011-2916, 17th AIAA/CEAS Aeroacoustics Conference, Portland, USA, 5-8 June 2011" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_Sinayoko2011_aiaa" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{Sinayoko2011_aiaa,
+      author = {Sinayoko, S. and Agarwal, A. and Sandberg, R.},
+      title = {Physical sources of sound in laminar and turbulent jets},
+      booktitle = {17th AIAA/CEAS Aeroacoustics Conference, Portland, USA, 5--8 June 2011},
+      year = {2011},
+      note = {AIAA paper 2011--2916}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="Sinayoko2010" class="entry">
+  <td>S. Sinayoko and A. Agarwal</td>
+  <td>On computing the physical sources of jet noise
+    <p class="infolinks">
+      
+      
+      [<a href="data/conference-papers/SinayokoAgarwal2010_AIAA.pdf">pdf</a>]
+      [<a href="data/conference-papers/SinayokoAgarwal2010_AIAA_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('Sinayoko2010','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2010</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    AIAA paper 2010-3962, 
+    
+    
+    
+    16th AIAA/CEAS Aeroacoustics Conference, Stockholm, Sweden, 7-9 June 2010
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "AIAA paper 2010-3962, 16th AIAA/CEAS Aeroacoustics Conference, Stockholm, Sweden, 7-9 June 2010" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_Sinayoko2010" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{Sinayoko2010,
+      author = {Sinayoko, S. and Agarwal, A.},
+      title = {On computing the physical sources of jet noise},
+      booktitle = {16th AIAA/CEAS Aeroacoustics Conference, Stockholm, Sweden, 7--9 June 2010},
+      year = {2010},
+      note = {AIAA paper 2010--3962}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="Sinayoko2009" class="entry">
+  <td>S. Sinayoko, A. Agarwal and Z. Hu</td>
+  <td>On separating propagating and non-propagating dynamics in fluid-flow equations
+    <p class="infolinks">
+      
+      
+      [<a href="data/conference-papers/SinayokoAgarwalHu2009_AIAA.pdf">pdf</a>]
+      [<a href="data/conference-papers/SinayokoAgarwalHu2009_AIAA_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('Sinayoko2009','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2009</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    AIAA paper 2009-3381, 
+    
+    
+    
+    15th AIAA/CEAS Aeroacoustics Conference, Miami, USA, 11-13 May 2009
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "AIAA paper 2009-3381, 15th AIAA/CEAS Aeroacoustics Conference, Miami, USA, 11-13 May 2009" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_Sinayoko2009" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{Sinayoko2009,
+      author = {Sinayoko, S. and Agarwal, A. and Hu, Z.},
+      title = {On separating propagating and non-propagating dynamics in fluid-flow equations},
+      booktitle = {15th AIAA/CEAS Aeroacoustics Conference, Miami, USA, 11--13 May 2009},
+      year = {2009},
+      note = {AIAA paper 2009--3381}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="sinayoko2008_euronoise" class="entry">
+  <td>A. Agarwal, G. Gabard and S. Sinayoko</td>
+  <td>On the separation of hydrodynamic and acoustic waves in linear free-shear flows
+    <p class="infolinks">
+      
+      
+      
+      [<a href="data/conference-papers/AgarwalGabardSinayoko2008_EURONOISE_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('sinayoko2008_euronoise','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2008</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    
+    
+    
+    Acoustics '08, June 29-July 4, Paris
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- ", Acoustics '08, June 29-July 4, Paris" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_sinayoko2008_euronoise" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{sinayoko2008_euronoise,
+      author = {Agarwal, A. and Gabard, G. and Sinayoko, S.},
+      title = {On the separation of hydrodynamic and acoustic waves in linear free-shear flows},
+      booktitle = {Acoustics '08, June 29--July 4, Paris},
+      year = {2008}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="agarwal2008_ercoftac" class="entry">
+  <td>A. Agarwal, G. Gabard, S. Sinayoko and Z. Hu</td>
+  <td>On separating propagating and non-propagating dynamics in fluid-flow equations
+    <p class="infolinks">
+      
+      
+      
+      [<a href="data/conference-papers/AgarwalGabardSinayokoHu2008_ERCOFTAC_presentation.pdf">presentation</a>]
+      [<a href="javascript:toggleInfo('agarwal2008_ercoftac','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2008</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    
+    
+    
+    
+    ERCOFTAC workshop on Noise Source Mechanisms in Turbulent Shear Flows
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- ", ERCOFTAC workshop on Noise Source Mechanisms in Turbulent Shear Flows" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_agarwal2008_ercoftac" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{agarwal2008_ercoftac,
+      author = {Agarwal, A. and Gabard, G. and Sinayoko, S. and Hu, Z.},
+      title = {On separating propagating and non-propagating dynamics in fluid-flow equations},
+      booktitle = {ERCOFTAC workshop on Noise Source Mechanisms in Turbulent Shear Flows},
+      year = {2008}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="sinayoko2008high" class="entry">
+  <td>S. Sinayoko, P.F. Joseph and A. McAlpine</td>
+  <td>High frequency multimode radiation from ducts with flow
+    <p class="infolinks">
+      
+      
+      [<a href="data/conference-papers/SinayokoJosephMcAlpine2008_AIAA.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('sinayoko2008high','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2008</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    AIAA paper 2008-2831, 
+    
+    
+    
+    14th AIAA/CEAS Aeroacoustics Conference, Vancouver, Canada, 5-7 May 2008
+    
+    
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "AIAA paper 2008-2831, 14th AIAA/CEAS Aeroacoustics Conference, Vancouver, Canada, 5-7 May 2008" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    conference
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_sinayoko2008high" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @conference{sinayoko2008high,
+      author = {Sinayoko, S. and Joseph, P. F. and McAlpine, A.},
+      title = {High frequency multimode radiation from ducts with flow},
+      booktitle = {14th AIAA/CEAS Aeroacoustics Conference, Vancouver, Canada, 5--7 May 2008},
+      year = {2008},
+      note = {AIAA paper 2008--2831}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="sinayoko2008fundamental" class="entry">
+  <td>S. Sinayoko</td>
+  <td>Fundamental Investigation into the directivity function of multi-mode sound fields from ducts
+    <p class="infolinks">
+      
+      
+      [<a href="data/Sinayoko_MSc_dissertation.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('sinayoko2008fundamental','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2008</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    Institute of Sound and Vibration Research, 
+    
+    
+    
+    
+    
+     University of Southampton
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "Institute of Sound and Vibration Research, University of Southampton" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    mastersthesis
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_sinayoko2008fundamental" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @mastersthesis{sinayoko2008fundamental,
+      author = {Sinayoko, Samuel},
+      title = {Fundamental Investigation into the directivity function of multi-mode sound fields from ducts},
+      school = {University of Southampton},
+      year = {2008},
+      note = {Institute of Sound and Vibration Research}
+      }
+    </pre>
+  </td>
+</tr>
+<tr id="sinayoko2010numerical" class="entry">
+  <td>S. Sinayoko</td>
+  <td>Numerical investigation of the true sources of jet noise
+    <p class="infolinks">
+      
+      
+      [<a href="data/Sinayoko_PhD_thesis.pdf">pdf</a>]
+      
+      [<a href="javascript:toggleInfo('sinayoko2010numerical','bibtex')">bib</a>]
+    </p>
+  </td>
+  <td>2010</td>
+  <td>
+    <!-- format is below with each file on a separate line -->
+    Institute of Sound and Vibration Research, 
+    
+    
+    
+    
+    
+     University of Southampton
+    
+    <!-- <lisp> -->
+    <!-- (sam-blog-delete-starting-comma -->
+    <!-- "Institute of Sound and Vibration Research, University of Southampton" -->
+    <!-- ) -->
+    <!-- </lisp> -->
+  </td>
+  <td>
+    phdthesis
+  </td>
+  <!-- <td>&nbsp;</td> -->
+</tr>
+
+
+
+
+<tr id="bib_sinayoko2010numerical" class="bibtex noshow">
+  <td colspan="5"><b>BibTeX</b>:
+    <pre>
+      @phdthesis{sinayoko2010numerical,
+      author = {Sinayoko, Samuel},
+      title = {Numerical investigation of the true sources of jet noise},
+      school = {University of Southampton},
+      year = {2010},
+      note = {Institute of Sound and Vibration Research}
+      }
+    </pre>
+  </td>
+</tr>
+</tbody>
+</table>
+
+<div class="copyright">
+  Created by <a href="http://jabref.sourceforge.net">JabRef</a>.
+</div>
+
+</div>
+
+<p>
+Download full publication record in BibTex format: <a href="data/sinayoko.bib">sinayoko.bib</a>.
+</p>
+</div>
+</div>
+
+
+
+<div id="outline-container-teaching" class="outline-2">
+<h2 id="teaching"><a id="sec-4" name="sec-4"></a>Teaching</h2>
+<div class="outline-text-2" id="text-teaching">
+</div>
+<div id="outline-container-sec-4-1" class="outline-3">
+<h3 id="sec-4-1">FEEG6002 Advanced Computational Methods 1</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+4th year module on <i>C programming</i> and <i>Applied Programming Techniques</i>. I've designed and am delivering lectures for the the applied programming part of the course and am running the weekly C programming labs. I'm also responsible for the exam.
+</p>
+
+<p>
+The labs use the Southampton's automated marking system TeTePy. Students send their programs to the course email address. The programs are compiled, run and tested automatically and students are sent specific feedback.
+</p>
+
+<p>
+<a href="http://southampton.ac.uk/~feeg6002">FEEG6002 website</a>
+</p>
+
+<p>
+<a href="http://www.southampton.ac.uk/~feeg6002/lecturenotes.html">FEEG602 lecture notes</a>
+</p>
+</div>
+</div>
+<div id="outline-container-sec-4-2" class="outline-3">
+<h3 id="sec-4-2">FEEG1001: Python for Computational Science and Engineering</h3>
+<div class="outline-text-3" id="text-4-2">
+<ul class="org-ul">
+<li>1st year module on Python programming taken by all engineering undergraduates
+</li>
+<li>Demonstrating for Python labs
+</li>
+<li>Setting and marking part of the exam
+</li>
+</ul>
+
+<p>
+<a href="http://southampton.ac.uk/~feeg1001">FEEG1001 website</a>
+</p>
+</div>
+</div>
+<div id="outline-container-sec-4-3" class="outline-3">
+<h3 id="sec-4-3">FEEG1002: Dynamics-1</h3>
+<div class="outline-text-3" id="text-4-3">
+<p>
+First year Dynamics module. I'm giving 50% of the lectures on particle and rigid body dynamics, focusing on Work, Impulse and Energy Principles.
+</p>
+
+<p>
+Course syllabus:
+</p>
+<ul class="org-ul">
+<li>Particle Dynamics: Newton’s Laws, particle motion for constant and variable force
+</li>
+<li>Work, Energy and Momentum: Work done by Force, Kinetic and Potential Energy
+</li>
+<li>Energy Conservation, Friction, Linear Momentum &amp; Impulse, Simple Rotating Bodies
+</li>
+<li>Relative motion equation, Relative motion Diagrams
+</li>
+<li>System of Particles: Centre of Mass, Centre of Mass of a vehicle, Equivalent Particle
+</li>
+<li>Rocket and Jet Propulsion
+</li>
+<li>Dynamics of Rigid Bodies: Rotation of rigid body about a fixed axis
+</li>
+<li>Angular Momentum &amp; its conservation, Moments of inertia, Inertia Matrix
+</li>
+</ul>
+
+<p>
+<a href="http://www.southampton.ac.uk/engineering/undergraduate/modules/feeg1002_mechanics_structures_and_materials.page">FEEG1002 website</a>
+</p>
+</div>
+</div>
+<div id="outline-container-sec-4-4" class="outline-3">
+<h3 id="sec-4-4">FEEG2003: Fluid Mechanics</h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+Second year Fluid Mechanics module. I'm organising the two labs (boundary layer &amp; compressible nozzle) and delivering lectures on irrotational flows and potential flows.
+<a href="http://www.southampton.ac.uk/engineering/undergraduate/modules/feeg2003_fluid_mechanics.page">FEEG2003 website</a>
+</p>
+</div>
+</div>
+</div>
+
+
+
+<div id="outline-container-about-me" class="outline-2">
+<h2 id="about-me"><a id="sec-5" name="sec-5"></a>About me</h2>
+<div class="outline-text-2" id="text-about-me">
+</div>
+<div id="outline-container-sec-5-1" class="outline-3">
+<h3 id="sec-5-1">Education</h3>
+<div class="outline-text-3" id="text-5-1">
+<div class="figure">
+<img src="images/ponts.png" alt="ponts.png" height="100em"  margin="2em" style="float:left;margin:4em;"/>
+<img src="images/isvr.png" alt="isvr.png" height="100em" margin="2em" style="float:left;margin:4em;"/>
+<br style="clear:both;"/>
+</div>
+<p>
+I graduated from <a href="http://en.wikipedia.org/wiki/%25C3%2589cole_des_ponts_ParisTech">Ecole des Ponts ParisTech</a> with a <a href="http://en.wikipedia.org/wiki/Dipl%C3%B4me_d'Ing%C3%A9nieur">diplome d'Ingenieur</a> in Mechanical Engineering. I also obtained an MSc in Sound and Vibration and a PhD in Aeroacoustics from the <a href="http://www.southampton.ac.uk/engineering/research/centres/isvr.page">Institute of Sound and Vibration Research</a> (ISVR) at the University of Southampton. My PhD was on identifying the sources of jet noise (<a href="data/Sinayoko_PhD_thesis.pdf">pdf</a>).
+If you'd like to know more about my background take a look at my <a href="data/cv_Sinayoko.pdf">CV</a> or <a href="mailto:s.sinayoko@soton.ac.uk">contact me</a>.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-5-2" class="outline-3">
+<h3 id="sec-5-2">Personal</h3>
+<div class="outline-text-3" id="text-5-2">
+<p>
+I am French of Malian descent and grew up in Orleans. I am also very
+tall (1.96m); if you see a really tall aeroacoustician it's probably me. I
+like playing football, squash and I'm a former rugby player and judoka. Finally, I've been having a hard time learning Hungarian.
+</p>
+
+<div class="img">
+<iframe width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Mali&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=37.273371,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=Mali&amp;t=m&amp;z=3&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Mali&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=37.273371,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=Mali&amp;t=m&amp;z=3" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</div>
+
+<div class="img">
+<iframe width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=orleans&amp;aq=&amp;sll=18.145852,0.351563&amp;sspn=82.201589,158.027344&amp;ie=UTF8&amp;hq=&amp;hnear=Orl%C3%A9ans,+Loiret,+Centre,+France&amp;t=m&amp;z=6&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=orleans&amp;aq=&amp;sll=18.145852,0.351563&amp;sspn=82.201589,158.027344&amp;ie=UTF8&amp;hq=&amp;hnear=Orl%C3%A9ans,+Loiret,+Centre,+France&amp;t=m&amp;z=6&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-vacancies" class="outline-2">
+<h2 id="vacancies"><a id="sec-6" name="sec-6"></a>Vacancies</h2>
+<div class="outline-text-2" id="text-vacancies">
+</div>
+<div id="outline-container-sec-6-1" class="outline-3">
+<h3 id="sec-6-1">PhD project on High Productivity Computation for micromagnetic simulation</h3>
+<div class="outline-text-3" id="text-6-1">
+<p>
+<a id="hpc-micromagnetics" name="hpc-micromagnetics"></a>
+<b>CLOSED</b>: Fully funded 4 year PhD studentship for a UK student starting in September 2015 to work on High Productivity Computation for micromagnetic simulation, within Southampton's <a href="http://www.ngcm.soton.ac.uk/">Next Generation Computational Modelling Doctoral Training Centre</a>. This project is co-supervised by <a href="http://www.southampton.ac.uk/~fangohr/">Hans Fangohr</a>.
+</p>
+</div>
+
+<div id="outline-container-sec-6-1-1" class="outline-4">
+<h4 id="sec-6-1-1">Subject</h4>
+<div class="outline-text-4" id="text-6-1-1">
+<p>
+Simulation has become a key tool in research and development of magnetic nanostructure systems, including data storage and sensing. The simulation of magnetisation at the nanoscale poses computational challenges as the relevant time-dependent partial differential equations are non-linear and stiff. The formulation of the micromagnetic model requires a fine discretisation, resulting in many degrees of freedom. New design proposals can be explored virtually, and help making the device design process more cost-effective and efficient but require simulation of large structures.
+</p>
+
+<p>
+The workhorse of micromagnetic modelling is a finite-difference based software that executes on single and multi-core CPUs (<a href="http://math.nist.gov/oommf/">OOMMF</a>). The availability of large computational power in GPUs at low costs has led to the development of further micromagnetic codes that have been written especially for (NVidia) GPUs, such as the open source codes Mumax3 and Micromagnum, and a few other codes that are not publicly available.
+</p>
+
+<p>
+In this project, we will explore feasibility of developing similar high performance computing code that can flexibly execute on several computational backends, such as GPUs, Intel Phi and multi-core/multi-CPU system. We are aiming for an implementation where the equations to solve are coded once but the translation into backend specific code happens automatically. In the long run, this will lead to more sustainable code that can be re-used despite rapidly changing hardware.
+</p>
+
+<p>
+We will use a design where the end user of the application uses a Python interface, similar to the <a href="http://nmag.soton.ac.uk">Nmag</a> simulation design (see figure 1 below).
+</p>
+
+<p>
+Eventually, we will apply the prototype simulation tool to state-of-the-art simulation challenges from the micromagnetic community to advance science and evaluate performance and usefulness of the tools, together with our national and international collaborators.
+</p>
+
+
+<div class="figure">
+<p><img src="images/vacancies/nmag-architecture.png" alt="nmag-architecture.png" />
+</p>
+<p><span class="figure-number">Figure 3:</span> The image shows as a case study the schematic overview of the Nmag finite-element simulation code <sup><a id="fnr.nil.100" name="fnr.nil.100" class="footref" href="#fn.nil"></a></sup> structure: The end-user sees a Python interface (blue) which is the simulation script that makes use of a Python library called nmag. In this project, we will develop a similar setup, but for finite-difference micromagnetic simulations. The layers below this user interface reflect the overall idea of exploiting existing numerical libraries and executing compiled code in parallel but should not be read as the anticipated layout or choice of tools for this project.</p>
+</div>
+
+
+<div class="figure">
+<p><img src="images/vacancies/fnl2.png" alt="fnl2.png" />
+</p>
+<p><span class="figure-number">Figure 4:</span> This image depicts the magnetisation vector field in a 200nm diameter nickel half-sphere in zero field, computed with the OOMMF code. The coloured cones show the magnetisation in the x-y plane cross section of the half-sphere and highlight that the magnetisation forms a vortex (i.e. shows circular 'flows'). The colour in these cones shows the x-y angle of magnetisation (where z is pointing up). The monochrom cones display the magnetisation in the x-z plane cross-section and demonstrate that cones in the centre of the vortex are pointing down. The streamlines serve to highlight the overall vortex core shape. There are <a href="http://math.nist.gov/oommf/oommf_cites.html">many publications relying on simulation codes like OOMMF</a>, with application to magnetic data storage, spintronics, sensing and energy harvesting that are all based on micromagnetic models.</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-6-1-2" class="outline-4">
+<h4 id="sec-6-1-2">Apply</h4>
+<div class="outline-text-4" id="text-6-1-2">
+<p>
+Email your application material to <a href="mailto:ngcm@soton.ac.uk">mailto:ngcm@soton.ac.uk</a> including:
+</p>
+<ul class="org-ul">
+<li>Your CV, including names and details of at least two academic references
+</li>
+<li>A short research statement, including the information which one or multiple PhD projects you are applying for
+</li>
+<li>Anticipated Financial Support (i.e. eligibility for a studentship if you require a studentship)
+</li>
+<li>If you are not a native English speaker, information showing that you fulfil the English language requirements, ideally the test result of an IELTS test.
+</li>
+</ul>
+
+<p>
+Closing date: 16 July 2015.
+</p>
+
+<p>
+More information is available on the <a href="http://www.ngcm.soton.ac.uk/apply.html">DTC's website</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-6-1-3" class="outline-4">
+<h4 id="sec-6-1-3">Contacts</h4>
+<div class="outline-text-4" id="text-6-1-3">
+<p>
+For informal inqueries, please get in touch with
+</p>
+<ul class="org-ul">
+<li>Sam Sinayoko s.sinayoko AT soton.ac.uk
+</li>
+<li>Hans Fangohr fangohr AT soton.ac.uk
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2015-06-03</p>
+<p class="author">Author: Sam Sinayoko</p>
+<p class="date">Created: 2016-10-10 Mon 10:22</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
