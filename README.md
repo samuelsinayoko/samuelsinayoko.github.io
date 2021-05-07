@@ -1,6 +1,6 @@
 # Intro
 
-This is the source for my website <http://www.sinayoko.com> that includes
+This is the source for my website <https://samuelsinayoko.github.io/> that includes
 -   Contact details, social networks and tweeter feed;
 -   Research: my current and past projects;
 -   Publications: from <publications.html> generated from JabRef based a BibTex file;
